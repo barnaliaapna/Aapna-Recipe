@@ -328,7 +328,7 @@
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">MENU</li>
         <li class="s_nav s_dashboard">
-          <a href="<?php echo $this->Url->build('/');?>Dashboard">
+          <a href="<?php echo $this->Url->build('/');?>backend/Dashboard">
             <i class="fa fa-dashboard"></i> <span>Dashboard</span>
           </a>
         </li>       
@@ -375,8 +375,18 @@
 <!-- ./wrapper -->
 
 <!-- jQuery 3 -->
-<script src="<?php echo $this->Url->build('/');?>bower_components/jquery/dist/jquery.min.js"></script>
+<!-- <script src="<?php echo $this->Url->build('/');?>bower_components/jquery/dist/jquery.min.js"></script> -->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
 <!-- Bootstrap 3.3.7 -->
+
+
+
+
+
+
+
+
+
 <script src="<?php echo $this->Url->build('/');?>bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <!-- FastClick -->
 <script src="<?php echo $this->Url->build('/');?>bower_components/fastclick/lib/fastclick.js"></script>
@@ -400,6 +410,13 @@
 <!--  for demo purposes -->
 <script src="<?php echo $this->Url->build('/');?>dist/js/demo.js"></script>
 <!-- page script -->
+
+
+
+
+
+
+
 <script>
   $(function () {
     $('#example1').DataTable()

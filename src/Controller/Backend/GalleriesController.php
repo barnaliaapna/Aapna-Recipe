@@ -40,4 +40,9 @@ class GalleriesController extends AppController
         $this->set(compact('all_galleries'));
     }
 
+    public function add()
+    {
+        $this->viewBuilder()->setLayout('backend/dashboard');
+    }
+
 }
