@@ -43,6 +43,34 @@ class GalleriesController extends AppController
     public function add()
     {
         $this->viewBuilder()->setLayout('backend/dashboard');
+        
+    }
+
+
+    public function uploadGallery()
+    {
+        $this->viewBuilder()->setLayout('ajax');
+        if($this->request->is('post'))
+        {
+            $files=$this->request->data['files'];
+
+            foreach($files as $file)
+            {
+                $ext = explode('.', $file['name']);
+                $l_name = uniqid(time()).$this->generateRandomString(). "." . end($ext);
+                $path = WWW_ROOT . "images";
+                if(move_uploaded_file($file['tmp_name'], $path . DS . $l_name))
+                {
+                    $galleryTable=TableRegistry::get('galleries');
+                    $gallery=$galleryTable->newEntity();
+                    $gallery->id='';
+                    $gallery->name=$l_name;
+                    $galleryTable->save($gallery);
+                }
+                
+            }
+            $this->Flash->success(__('Image uploaded sucessfully.'));
+        }
     }
 
 }

@@ -19,6 +19,13 @@
   
   <link rel="stylesheet" href="<?php echo $this->Url->build('/');?>dist/css/skins/_all-skins.min.css">
 
+  <!-- blueimp Gallery styles -->
+<link rel="stylesheet" href="https://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+<!-- CSS to style the file input field as button and adjust the Bootstrap progress bars -->
+<link rel="stylesheet" href="<?php echo $this->Url->build('/');?>css/jquery.fileupload.css">
+<link rel="stylesheet" href="<?php echo $this->Url->build('/');?>css/jquery.fileupload-ui.css">
+<!-- CSS adjustments for browsers with JavaScript disabled -->
+
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -375,7 +382,7 @@
 <!-- ./wrapper -->
 
 <!-- jQuery 3 -->
-<!-- <script src="<?php echo $this->Url->build('/');?>bower_components/jquery/dist/jquery.min.js"></script> -->
+<script src="<?php echo $this->Url->build('/');?>bower_components/jquery/dist/jquery.min.js"></script> 
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
 <!-- Bootstrap 3.3.7 -->
 
