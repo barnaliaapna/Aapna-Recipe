@@ -73,4 +73,14 @@ class GalleriesController extends AppController
         }
     }
 
+
+    public function delete($gallery_id)
+    {
+        $galleryTable=TableRegistry::get('galleries');
+        $galleryTable->deleteAll(['id' => $gallery_id]);
+
+        echo '1';
+        exit;
+    }
+
 }

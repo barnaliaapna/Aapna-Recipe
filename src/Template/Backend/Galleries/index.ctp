@@ -24,6 +24,7 @@
                 <th>No</th>
                 <th>Image</th>
                 <th>Name</th>
+                <th>Action</th>
             </tr>
             </thead>
             <tbody>
@@ -32,6 +33,7 @@
                   <td><?php echo $key+1;?></td>
                   <td><img src="<?php echo $this->Url->build('/');?>images/<?php echo $gallery['name'];?>"></td>
                   <td><?php echo $gallery['name'];?></td>
+                  <td><a href="javascript:void(0);" onclick="deleteGallery(<?php echo $gallery['id'];?>)"><i class="fa fa-trash"></i></a></td>
                 </tr>
                 <?php endforeach;?>
             </tbody>
@@ -40,6 +42,7 @@
                 <th>No</th>
                 <th>Image</th>
                 <th>Name</th>
+                <th>Action</th>
             </tr>
             </tfoot>
           </table>
@@ -47,4 +50,18 @@
         <!-- /.box-body -->
     </div>
 </section>
+
+<script type="text/javascript">
+    function deleteGallery(gallery_id)
+    {
+        var r=confirm('Are you want to delete this image?');
+        if(r == true)
+        {
+            $.get("<?php echo $this->Url->build('/');?>backend/Galleries/delete/"+gallery_id, function(res){
+                console.log(res);
+                window.location.reload();
+            });
+        }        
+    }
+</script>
 

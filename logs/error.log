@@ -6999,3 +6999,1227 @@ Stack Trace:
 #17 {main}
 
 
+2018-02-25 16:26:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/jquery.fileupload.css
+Referer URL: http://localhost/RecipeBook/backend
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 16:26:54 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/jquery.fileupload-ui.css
+Referer URL: http://localhost/RecipeBook/backend
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 16:28:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/jquery.fileupload.css
+Referer URL: http://localhost/RecipeBook/backend/Galleries
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 16:28:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/jquery.fileupload-ui.css
+Referer URL: http://localhost/RecipeBook/backend/Galleries
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 16:28:52 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/jquery.fileupload.css
+Referer URL: http://localhost/RecipeBook/backend/Galleries/add
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 16:28:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/jquery.fileupload-ui.css
+Referer URL: http://localhost/RecipeBook/backend/Galleries/add
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 16:28:59 Error: [Cake\View\Exception\MissingTemplateException] Template file "Backend\Galleries\upload_gallery.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Backend\\Galleries\\upload_gallery.ctp',
+)
+Request URL: /backend/Galleries/uploadGallery
+Referer URL: http://localhost/RecipeBook/backend/Galleries/add
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\View\View.php(761): Cake\View\View->_getViewFileName('Backend\\Galleri...')
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Controller\Controller.php(623): Cake\View\View->render(NULL, NULL)
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(125): Cake\Controller\Controller->render()
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\backend\GalleriesController))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#17 {main}
+
+
+2018-02-25 16:29:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/jquery.fileupload.css
+Referer URL: http://localhost/RecipeBook/backend/Galleries/add
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 16:29:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/jquery.fileupload-ui.css
+Referer URL: http://localhost/RecipeBook/backend/Galleries/add
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 16:47:21 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/jquery.fileupload.css
+Referer URL: http://localhost/RecipeBook/backend/Galleries/add
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 16:47:22 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/jquery.fileupload-ui.css
+Referer URL: http://localhost/RecipeBook/backend/Galleries/add
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 16:47:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/jquery.fileupload-ui.css
+Referer URL: http://localhost/RecipeBook/backend/Galleries/add
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 16:47:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/jquery.fileupload.css
+Referer URL: http://localhost/RecipeBook/backend/Galleries/add
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 16:48:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/jquery.fileupload.css
+Referer URL: http://localhost/RecipeBook/backend/Galleries/add
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 16:48:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/jquery.fileupload-ui.css
+Referer URL: http://localhost/RecipeBook/backend/Galleries/add
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 16:50:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/jquery.fileupload-ui.css
+Referer URL: http://localhost/RecipeBook/backend/Galleries/add
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 16:50:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/jquery.fileupload.css
+Referer URL: http://localhost/RecipeBook/backend/Galleries/add
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 16:50:24 Error: [Cake\View\Exception\MissingTemplateException] Template file "Backend\Galleries\upload_gallery.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Backend\\Galleries\\upload_gallery.ctp',
+)
+Request URL: /backend/Galleries/uploadGallery
+Referer URL: http://localhost/RecipeBook/backend/Galleries/add
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\View\View.php(761): Cake\View\View->_getViewFileName('Backend\\Galleri...')
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Controller\Controller.php(623): Cake\View\View->render(NULL, NULL)
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(125): Cake\Controller\Controller->render()
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\backend\GalleriesController))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#17 {main}
+
+
+2018-02-25 16:50:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/jquery.fileupload.css
+Referer URL: http://localhost/RecipeBook/backend/Galleries/add
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 16:50:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/jquery.fileupload-ui.css
+Referer URL: http://localhost/RecipeBook/backend/Galleries/add
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 16:50:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/jquery.fileupload.css
+Referer URL: http://localhost/RecipeBook/backend/Galleries
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 16:50:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/jquery.fileupload-ui.css
+Referer URL: http://localhost/RecipeBook/backend/Galleries
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 16:51:15 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/jquery.fileupload-ui.css
+Referer URL: http://localhost/RecipeBook/backend/Galleries
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 16:51:15 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/jquery.fileupload.css
+Referer URL: http://localhost/RecipeBook/backend/Galleries
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 16:51:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/jquery.fileupload-ui.css
+Referer URL: http://localhost/RecipeBook/backend/Galleries
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 16:51:54 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/jquery.fileupload.css
+Referer URL: http://localhost/RecipeBook/backend/Galleries
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 16:51:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /images/15195761395a92e44b7f2deVJgmJJFFV5.jpg
+Referer URL: http://localhost/RecipeBook/backend/Galleries
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 16:52:20 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/jquery.fileupload-ui.css
+Referer URL: http://localhost/RecipeBook/backend/Galleries
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 16:52:21 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/jquery.fileupload.css
+Referer URL: http://localhost/RecipeBook/backend/Galleries
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 16:56:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/jquery.fileupload-ui.css
+Referer URL: http://localhost/RecipeBook/backend/Galleries
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 16:56:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/jquery.fileupload.css
+Referer URL: http://localhost/RecipeBook/backend/Galleries
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 19:13:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/jquery.fileupload-ui.css
+Referer URL: http://localhost/RecipeBook/backend
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 19:13:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/jquery.fileupload.css
+Referer URL: http://localhost/RecipeBook/backend
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 19:13:48 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/jquery.fileupload.css
+Referer URL: http://localhost/RecipeBook/backend/Galleries
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 19:13:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/jquery.fileupload-ui.css
+Referer URL: http://localhost/RecipeBook/backend/Galleries
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 19:13:52 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/jquery.fileupload.css
+Referer URL: http://localhost/RecipeBook/backend/Galleries/add
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 19:13:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/jquery.fileupload-ui.css
+Referer URL: http://localhost/RecipeBook/backend/Galleries/add
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 19:13:56 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/jquery.fileupload.css
+Referer URL: http://localhost/RecipeBook/backend/Galleries
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 19:13:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/jquery.fileupload-ui.css
+Referer URL: http://localhost/RecipeBook/backend/Galleries
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 19:23:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/jquery.fileupload-ui.css
+Referer URL: http://localhost/RecipeBook/backend/Galleries
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 19:23:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/jquery.fileupload.css
+Referer URL: http://localhost/RecipeBook/backend/Galleries
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 19:23:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/jquery.fileupload.css
+Referer URL: http://localhost/RecipeBook/backend/Galleries
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 19:23:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /css/jquery.fileupload-ui.css
+Referer URL: http://localhost/RecipeBook/backend/Galleries
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(38): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(97): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+
+
+2018-02-25 19:41:15 Error: [Error] Class 'App\Controller\TableRegistry' not found
+Request URL: /
+Stack Trace:
+#0 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\HomeController->index()
+#1 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#2 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\HomeController))
+#3 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\BaseApplication.php(108): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(104): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 E:\xampp\htdocs\RecipeBook\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\Server.php(81): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 E:\xampp\htdocs\RecipeBook\webroot\index.php(40): Cake\Http\Server->run()
+#16 {main}
+
+

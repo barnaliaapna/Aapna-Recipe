@@ -18,6 +18,7 @@ use Cake\Core\Configure;
 use Cake\Network\Exception\ForbiddenException;
 use Cake\Network\Exception\NotFoundException;
 use Cake\View\Exception\MissingTemplateException;
+use Cake\ORM\TableRegistry;
 
 /**
  * Static content controller
@@ -31,8 +32,12 @@ class HomeController extends AppController
 
 	public function index()
 	{
-		//$this->layout='landing';
 		$this->viewBuilder()->setLayout('landing');
+
+		$galleryTable=TableRegistry::get('galleries');
+        $all_galleries=$galleryTable->find('all')->order('rand()')->limit(6)->toArray();
+
+        $this->set(compact('all_galleries'));
 	}
 
 }

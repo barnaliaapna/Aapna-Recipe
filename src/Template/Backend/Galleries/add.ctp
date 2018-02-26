@@ -17,8 +17,8 @@
         <!-- /.box-header -->
         <div class="box-body">
             <form class="box2" method="post" action="<?php echo $this->Url->build('/');?>backend/Galleries/uploadGallery" enctype="multipart/form-data">
-                <div class="box__input">
-                    <input class="box__file" type="file" name="files[]" id="file" data-multiple-caption="{count} files selected" multiple />
+                <div class="box__input text-center">
+                    <input class="box__file" type="file" name="files[]" id="file" data-multiple-caption="{count} files selected" multiple style="margin-left: 40%;" />
                     <label for="file"><strong>Choose a file</strong><span class="box__dragndrop"> or drag it here</span>.</label>
                     <button class="box__button" type="submit">Upload</button>
                 </div>
