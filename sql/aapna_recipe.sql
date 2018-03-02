@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 02, 2018 at 04:41 AM
+-- Generation Time: Mar 02, 2018 at 05:09 AM
 -- Server version: 10.1.30-MariaDB
 -- PHP Version: 7.2.2
 
@@ -103,7 +103,24 @@ INSERT INTO `ingredients` (`id`, `recipe_id`, `ingredient`, `created`) VALUES
 (18, 2, 'one pinch of sugar', '2018-03-01 19:15:17'),
 (19, 2, '2 dry chillies', '2018-03-01 19:15:17'),
 (20, 2, '3 tbsp Musturd Oil', '2018-03-01 19:22:51'),
-(21, 2, '1 bay leaf', '2018-03-01 19:24:06');
+(21, 2, '1 bay leaf', '2018-03-01 19:24:06'),
+(22, 3, '1 1/2 lb (around 3/4 kg) boneless chicken - cut into medium sized pieces', '2018-03-01 19:46:15'),
+(23, 3, '1 medium sized onions - finely chopped', '2018-03-01 19:46:15'),
+(24, 3, '2 medium sized tomatoes - finely chopped & grind to a smooth paste', '2018-03-01 19:46:31'),
+(25, 3, '4-5 Tbsp musturd oil', '2018-03-01 19:47:16'),
+(26, 3, '1 tsp cumin seeds', '2018-03-01 19:47:16'),
+(27, 3, '10-12 fresh curry leaves', '2018-03-01 19:47:45'),
+(28, 3, 'Salt to taste', '2018-03-01 19:47:45'),
+(29, 3, '1 tsp turmeric powder', '2018-03-01 19:48:16'),
+(30, 3, '2 1/2 tsp ginger & garlic paste', '2018-03-01 19:48:16'),
+(31, 3, '1 1/2 tsp cumin powder', '2018-03-01 19:48:40'),
+(32, 3, '1 1/2 tsp coriander powder', '2018-03-01 19:48:40'),
+(33, 3, '3 tsp red chilli powder ', '2018-03-01 19:49:09'),
+(34, 3, '1 cup of water', '2018-03-01 19:49:09'),
+(35, 3, '2 Tbsp yoghurt', '2018-03-01 19:49:41'),
+(36, 3, '2 cups fresh methi leaves ', '2018-03-01 19:49:41'),
+(37, 3, '2 tsp garam masala powder', '2018-03-01 19:50:07'),
+(38, 3, 'Few freshly chopped coriander leaves ', '2018-03-01 19:50:07');
 
 -- --------------------------------------------------------
 
@@ -127,7 +144,7 @@ CREATE TABLE `recipes` (
 INSERT INTO `recipes` (`id`, `name`, `image`, `metaname`, `about_us`, `description`) VALUES
 (1, 'Sarse Ilish Jhal', 'pic07.jpg', 'illish-sarse-jhal', 'Hilsha(Ilish) fish has very sharp and tough bones, making it problematic to eat for some. Ilish is an oily fish rich in omega 3 fatty acids. Sorshe Ilish is a Bengali dish made from hilsa or Tenualosa ilisha, a type of herring, cooked in mustard gravy. The dish is popular among the people in West Bengal and Bangladesh. ', 'At first take a non-stick pan in gas-stove. Heat the pan and pour 2 tbsp of mustard oil in it. When oil leaves smoke then pour marinated(add a pinch of salt and tumeric powder to washed fish.) ilish mach into pan and fry. When ilish mach change its color to light golden then put them out and keep them aside. Now in the same pan add some kalonji and slited green chilies, stir them 2 times and add Musturd paste into pan. Now add red chili powder,remaining turmeric powder and salt to it. Stir the masala to fry add milk to them. You can use water instead of milk but i add milk to them to give thickness. Add the fried ilish fish into the gravy and after close the lid with medium frame. After 5 minutes open the lid check the gravy is little bit thick. Add remaining mustard oil into it. Close the lid and wait for 2 minutes and off the gas. Now it is ready to serve.'),
 (2, 'Dim Posto', 'pic09.jpg', 'dim-posto', 'Eggs contain all the daily vitamins and minerals that are needed to produce energy in all the cells of the body. A healthy immune system: Vitamin A, vitamin B-12, and selenium are key to keeping the immune system healthy.', 'At first take a bowl to marinate boiled egg with some salt and turmeric. Then take a pan in gas-stove and add 1 tbsp musturd oil in it and heat properly. When smoke comes out add marinated eggs to it and fry till light golden. After that keep eggs aside. Add remaining musturd oil in pan. After heat add bay leaf, dry chillies and whole cumin to it. When smell comes out from the spices and ginger paste and cumin paste into it. Fry them till raw smell goes. After that add tommato pcs into it and stir them properly. Then add salt and turmeric to it. Add 1 tbsp hot water so that all spices are sorten properly and oil comes out. After oil comes out add poppy seed paste and sugar in it.Stir them properly after 3 minutes add 1 cup hot water to it and put the eggs into it. Close the lid. After 4 minutes gravy becomes thick then add 1 tbsp of musturd oil into it and close the lid. Off the gas-stove and serve this food after 15 minutes.'),
-(3, 'Dahi Methi Chicken', 'pic08.jpg', 'dahi-methi-chicken', 'Chicken is probably a staple in your diet, especially if you have implemented a healthy eating plan. Part of the meat and beans group of the Food Guide Pyramid, chicken is full of essential nutrients that your body needs, while carrying fewer of the unhealthy qualities that other meats have. ', '');
+(3, 'Dahi Methi Chicken', 'pic08.jpg', 'dahi-methi-chicken', 'Chicken is probably a staple in your diet, especially if you have implemented a healthy eating plan. Part of the meat and beans group of the Food Guide Pyramid, chicken is full of essential nutrients that your body needs, while carrying fewer of the unhealthy qualities that other meats have. ', 'At first take a deep pan and heat oil, on low frame add cumin seeds and let them crackle then add curry leaves and after stir add onions to it. Add a pinch of salt to it, and fry it till the onion becomes golden brown. Then add turmeric powder into it. After that add ginger and garlic paste and fry till the raw smell goes out. After that add chicken, cumin powder, coriander powder, red chili powder and mix it well. Then close the lid and cook for 4-5 minutes stirring in between. After that add tomato paste and water bring it to boil on high flame. After gravy start boiling reduce the flame to medium and cook till the chicken is tender and gravy becomes thick. After that add yoghurt and freshly chopped methi leaves and gently mix and close the lid. After 10 minutes add garam masala powder and mix well. Off the flame. And garnish the corriandar leaves and again close the lid for few minutes. After few minutes you can serve it with rice or roti as per your choice. ');
 
 -- --------------------------------------------------------
 
@@ -200,7 +217,7 @@ ALTER TABLE `galleries`
 -- AUTO_INCREMENT for table `ingredients`
 --
 ALTER TABLE `ingredients`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=39;
 
 --
 -- AUTO_INCREMENT for table `recipes`
