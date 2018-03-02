@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Helios by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>Aapna Recipe</title>
@@ -12,6 +7,7 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="<?php echo $this->Url->build('/');?>assets/css/main.css" />
 		<link rel="stylesheet" href="<?php echo $this->Url->build('/');?>assets/css/style.css" />
+		<link rel="shortcut icon" type="image/x-icon" href="<?php echo $this->Url->build('/');?>favicon.ico">
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
 	<body class="homepage">
@@ -23,7 +19,7 @@
 					<!-- Inner -->
 						<div class="inner">
 							<header>
-								<h1><a href="index.html" id="logo">Aapna Recipe</a></h1>
+								<h1><a href="<?php echo $this->Url->build('/');?>" id="logo">Aapna Recipe</a></h1>
 								<hr />
 								<p>Get The Aapna Recipe Out.</p>
 							</header>
@@ -33,32 +29,7 @@
 						</div>
 
 					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="index.html">Home</a></li>
-								<li>
-									<a href="#">Dropdown</a>
-									<ul>
-										<li><a href="#">Lorem ipsum dolor</a></li>
-										<li><a href="#">Magna phasellus</a></li>
-										<li><a href="#">Etiam dolore nisl</a></li>
-										<li>
-											<a href="#">And a submenu &hellip;</a>
-											<ul>
-												<li><a href="#">Lorem ipsum dolor</a></li>
-												<li><a href="#">Phasellus consequat</a></li>
-												<li><a href="#">Magna phasellus</a></li>
-												<li><a href="#">Etiam dolore nisl</a></li>
-											</ul>
-										</li>
-										<li><a href="#">Veroeros feugiat</a></li>
-									</ul>
-								</li>
-								<li><a href="left-sidebar.html">Left Sidebar</a></li>
-								<li><a href="right-sidebar.html">Right Sidebar</a></li>
-								<li><a href="no-sidebar.html">No Sidebar</a></li>
-							</ul>
-						</nav>
+						<?php echo $this->element('menu');?>
 
 				</div>
 
@@ -67,8 +38,7 @@
 					<header>
 						<h2>Hi. You're looking at <strong>Aapna Recipe</strong>.</h2>
 						<p>
-							A (free) responsive site template by <a href="http://html5up.net">HTML5 UP</a>.
-							Built on <strong>skel</strong> and released under the <a href="http://html5up.net/license">CCA</a> license.
+							A healthy breakfast is an important part of a balanced diet, and provides some of the vitamins and minerals we need for good health.
 						</p>
 					</header>
 				</section>
@@ -82,7 +52,6 @@
 							<header>
 								<h3><a href="#">Pulvinar sagittis congue</a></h3>
 							</header>
-							<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
 						</article>
 
 						<article>
@@ -90,7 +59,6 @@
 							<header>
 								<h3><a href="#">Fermentum sagittis proin</a></h3>
 							</header>
-							<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
 						</article>
 
 						<article>
@@ -98,7 +66,6 @@
 							<header>
 								<h3><a href="#">Sed quis rhoncus placerat</a></h3>
 							</header>
-							<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
 						</article>
 
 						<article>
@@ -106,7 +73,6 @@
 							<header>
 								<h3><a href="#">Ultrices urna sit lobortis</a></h3>
 							</header>
-							<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
 						</article>
 
 						<article>
@@ -114,7 +80,6 @@
 							<header>
 								<h3><a href="#">Varius magnis sollicitudin</a></h3>
 							</header>
-							<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
 						</article>
 
 						<article>
@@ -122,7 +87,6 @@
 							<header>
 								<h3><a href="#">Pulvinar sagittis congue</a></h3>
 							</header>
-							<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
 						</article>
 
 						<article>
@@ -130,7 +94,6 @@
 							<header>
 								<h3><a href="#">Fermentum sagittis proin</a></h3>
 							</header>
-							<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
 						</article>
 
 						<article>
@@ -138,7 +101,6 @@
 							<header>
 								<h3><a href="#">Sed quis rhoncus placerat</a></h3>
 							</header>
-							<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
 						</article>
 
 						<article>
@@ -146,7 +108,6 @@
 							<header>
 								<h3><a href="#">Ultrices urna sit lobortis</a></h3>
 							</header>
-							<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
 						</article>
 
 						<article>
@@ -154,7 +115,6 @@
 							<header>
 								<h3><a href="#">Varius magnis sollicitudin</a></h3>
 							</header>
-							<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
 						</article>
 
 					</div>
@@ -166,10 +126,9 @@
 					<article id="main" class="container special">
 						<a href="#" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/pic06.jpg" alt="" /></a>
 						<header>
-							<h2><a href="#">Sed massa imperdiet magnis</a></h2>
+							<h2><a href="<?php echo $this->Url->build('/');?>AboutUs">We are a company of cooks.</a></h2>
 							<p>
-								Sociis aenean eu aenean mollis mollis facilisis primis ornare penatibus aenean. Cursus ac enim
-								pulvinar curabitur morbi convallis. Lectus malesuada sed fermentum dolore amet.
+								These easy Chinese stir-fried noodles will make you forget takeout forever
 							</p>
 						</header>
 						<p>
@@ -189,40 +148,21 @@
 
 					<section id="features" class="container special">
 						<header>
-							<h2>Morbi ullamcorper et varius leo lacus</h2>
-							<p>Ipsum volutpat consectetur orci metus consequat imperdiet duis integer semper magna.</p>
+							<h2>Your Best Hands-Off Recipe</h2>
+							<p>Take a look at our most popular recipes and check out the latest dishes we’ve added to the site.</p>
 						</header>
 						<div class="row">
+							<?php foreach($handsoff_recipe as $handsoff):?>
 							<article class="4u 12u(mobile) special">
-								<a href="#" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/pic07.jpg" alt="" /></a>
+								<a href="<?php echo $this->Url->build('/');?>Recipes/details/<?php echo $handsoff['metaname'];?>" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $handsoff['image'];?>" alt="" /></a>
 								<header>
-									<h3><a href="#">Gravida aliquam penatibus</a></h3>
+									<h3><a href="<?php echo $this->Url->build('/');?>Recipes/details/<?php echo $handsoff['metaname'];?>"><?php echo $handsoff['name'];?></a></h3>
 								</header>
 								<p>
-									Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
-									porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
+									<?php echo $handsoff['about_us'];?>
 								</p>
 							</article>
-							<article class="4u 12u(mobile) special">
-								<a href="#" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/pic08.jpg" alt="" /></a>
-								<header>
-									<h3><a href="#">Sed quis rhoncus placerat</a></h3>
-								</header>
-								<p>
-									Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
-									porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
-								</p>
-							</article>
-							<article class="4u 12u(mobile) special">
-								<a href="#" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/pic09.jpg" alt="" /></a>
-								<header>
-									<h3><a href="#">Magna laoreet et aliquam</a></h3>
-								</header>
-								<p>
-									Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
-									porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
-								</p>
-							</article>
+							<?php endforeach;?>
 						</div>
 					</section>
 

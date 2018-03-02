@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="<?php echo $this->Url->build('/');?>dist/css/AdminLTE.min.css">
   
   <link rel="stylesheet" href="<?php echo $this->Url->build('/');?>dist/css/skins/_all-skins.min.css">
+  <link rel="shortcut icon" type="image/x-icon" href="<?php echo $this->Url->build('/');?>favicon.ico">
 
   <!-- blueimp Gallery styles -->
 <link rel="stylesheet" href="https://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">

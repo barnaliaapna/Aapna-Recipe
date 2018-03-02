@@ -38,6 +38,12 @@ class HomeController extends AppController
         $all_galleries=$galleryTable->find('all')->order('rand()')->limit(6)->toArray();
 
         $this->set(compact('all_galleries'));
+
+
+        $recipesTable=TableRegistry::get('recipes');
+        $handsoff_recipe=$recipesTable->find('all')->order('rand()')->limit(3)->toArray();
+
+        $this->set(compact('all_galleries','handsoff_recipe'));
 	}
 
 }

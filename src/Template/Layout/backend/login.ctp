@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="<?php echo $this->Url->build('/');?>bower_components/Ionicons/css/ionicons.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="<?php echo $this->Url->build('/');?>dist/css/AdminLTE.min.css">
+  <link rel="shortcut icon" type="image/x-icon" href="<?php echo $this->Url->build('/');?>favicon.ico">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
