@@ -45,7 +45,9 @@ class RecipesController extends AppController
 		$recipesTable=TableRegistry::get('recipes');
         $recipe_details=$recipesTable->find('all',['contain'=>['Ingredients']])->where(['recipes.metaname'=>$meta_name])->first();
 
-        $this->set(compact('recipe_details','meta_name'));
+        $similiar_recipe=$recipesTable->find('all')->where(['main_ingredient'=>$recipe_details->main_ingredient,'id !='=>$recipe_details->id])->order('rand()')->limit(3)->toArray();
+
+        $this->set(compact('recipe_details','meta_name','similiar_recipe'));
 	}
 
 }

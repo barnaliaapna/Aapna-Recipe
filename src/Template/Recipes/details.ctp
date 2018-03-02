@@ -118,34 +118,15 @@
 </div>
 <hr />
 <div class="row">
+	<?php foreach($similiar_recipe as $similar):?>
 	<article class="4u 12u(mobile) special">
-		<a href="#" class="image featured"><img src="images/pic07.jpg" alt="" /></a>
+		<a href="<?php echo $this->Url->build('/');?>Recipes/details/<?php echo $similar['metaname'];?>" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $similar['image'];?>" alt="" width="400px" height="300px" /></a>
 		<header>
-			<h3><a href="#">Gravida aliquam penatibus</a></h3>
+			<h3><a href="<?php echo $this->Url->build('/');?>Recipes/details/<?php echo $similar['metaname'];?>"><?php echo $similar['name'];?></a></h3>
 		</header>
 		<p>
-			Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
-			porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
+			<?php echo $similar['about_us'];?>
 		</p>
 	</article>
-	<article class="4u 12u(mobile) special">
-		<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
-		<header>
-			<h3><a href="#">Sed quis rhoncus placerat</a></h3>
-		</header>
-		<p>
-			Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
-			porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
-		</p>
-	</article>
-	<article class="4u 12u(mobile) special">
-		<a href="#" class="image featured"><img src="images/pic09.jpg" alt="" /></a>
-		<header>
-			<h3><a href="#">Magna laoreet et aliquam</a></h3>
-		</header>
-		<p>
-			Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
-			porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
-		</p>
-	</article>
+	<?php endforeach;?>
 </div>
