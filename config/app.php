@@ -178,16 +178,15 @@ return [
      */
     'EmailTransport' => [
         'default' => [
-            'className' => 'Mail',
+            'className' => 'Smtp',
             // The following keys are used in SMTP transports
-            'host' => 'localhost',
-            'port' => 25,
+            'host' => 'mail.aapnarecipe.in',
+            'port' => 587,
             'timeout' => 30,
-            'username' => null,
-            'password' => null,
+            'username' => 'info@aapnarecipe.in',
+            'password' => 'B@rnu@123',
             'client' => null,
-            'tls' => null,
-            'url' => env('EMAIL_TRANSPORT_DEFAULT_URL', null),
+            'tls' => FALSE,
         ],
     ],
 

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 02, 2018 at 08:24 AM
+-- Generation Time: Mar 03, 2018 at 01:07 AM
 -- Server version: 10.1.30-MariaDB
 -- PHP Version: 7.2.2
 
@@ -21,6 +21,61 @@ SET time_zone = "+00:00";
 --
 -- Database: `aapna_recipe`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `blogs`
+--
+
+CREATE TABLE `blogs` (
+  `id` int(11) NOT NULL,
+  `name` text NOT NULL,
+  `image` varchar(255) NOT NULL,
+  `short_content` varchar(500) NOT NULL,
+  `content` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `blogs`
+--
+
+INSERT INTO `blogs` (`id`, `name`, `image`, `short_content`, `content`) VALUES
+(1, 'Water is another name for life.', 'dreamstime_xs_44066082.jpg', 'water-is-another-name-of-life', '<p>Water is an essential component for the effective functioning of our body. Approximately 50 to 70% of our body mass is made up of water, including skin, tissues, cells and the organs.Water staves off dehydration. Dehydration is a condition in which the body doesn’t have enough water to support the vital functions.</p>  <p>Water is essential to maintain the optimum skin moisture and deliver essential nutrients to the skin cells. It replenishes the skin tissue and increases its elasticity. This helps delay the appearance of signs of ageing like wrinkles and fine lines.</p>  <p>Water is a perfect replacement for your expensive anti-ageing treatments. It keeps the skin well hydrated and glistening, thereby, enhancing the complexion.For soft and supple skin, drinking an adequate amount of water is more important than applying topical creams.</p>  <p>Drinking enough water combats skin disorders like psoriasis, wrinkles and eczema. It also increases the metabolic rate and improves digestive system to flush out toxins from the body. This in turn gives you a healthy and glowing skin.</p>  <b>Drinking Water May Help Treat Kidney Stones</b> <p>Urinary stones are painful clumps of mineral crystal that form in the urinary system.The most common form is kidney stones, which form in the kidneys.Higher fluid intake increases the volume of urine passing through the kidneys, which dilutes the concentration of minerals, so they are less likely to crystallize and form clumps.</p>  <b>Breathing</b> <p>Water plays its role in distributing oxygen all over the human body while collecting the carbon dioxide from all these parts and dissolving these gases.</p>  <b>Boosts Metabolism</b> <p>Water is the carrier of oxygen, nutrients, and hormones to the body parts and also provides a medium for the removal of toxins, dead cells, and waste material. The proteins and enzymes involved in various fundamental processes also require water for their proper functioning.</p>  <b>Backaches</b> <p>The back of our body rests on the spinal cord. The spinal disk core is made up of a large volume of water and dehydration, which leads to back pain in many individuals.</p>'),
+(2, 'Health Benefits Of Tomatoes', 'Best-Things-to-put-in-Tomato-Planting-Hole-2.jpg', 'health-benifits-of-tomatoes', '<p>Tomato contains a large amount of lycopene, an antioxidant that is highly effective in scavenging cancer-causing free radicals. This benefit can even be obtained from heat-processed tomato products like ketchup. The lycopene in tomatoes defends against cancer and has been shown to be effective in fighting prostate cancer, cervical cancer, cancer of the stomach and rectum as well as pharynx and esophageal cancers. It also protects against breast and mouth cancer.</p>\r\n\r\n<b>Rich Source of Vitamins and Minerals</b>\r\n<p>A single tomato can provide about 40% of the daily vitamin C requirement. Vitamin C is a natural antioxidant which prevents cancer-causing free radicals from damaging the body’s systems. It also contains abundant vitamin A and potassium, as well as iron. Potassium plays a vital role in maintaining nerve health and iron is essential for maintaining normal blood circulation. Vitamin K, which is essential for blood clotting and controlling bleeding, is also abundant in tomatoes.</p>\r\n\r\n<b>Counter the Effect of Smoking Cigarette</b>\r\n<p>The coumaric acid and chlorogenic acid, in tomatoes, fight against nitrosamines, which are the main carcinogens found in cigarettes. The presence of vitamin A in high quantities has been shown to reduce the effects of carcinogens and can protect you against lung cancer.</p>\r\n\r\n<b>Lower Hypertension</b>\r\n<p>Consuming a tomato daily reduces the risk of developing hypertension, also known as high blood pressure. This is partially due to the impressive levels of potassium found in tomatoes. Potassium is a vasodilator, meaning that it reduces the tension in blood vessels and arteries, thereby increasing circulation and lowering the stress on the heart by eliminating hypertension.</p>\r\n\r\n<b>Improve Vision</b>\r\n<p>Vitamin A, present in tomatoes, aids in improving vision and preventing night-blindness and macular degeneration. Vitamin A is a powerful antioxidant that can be formed from an excess of beta-carotene in the body. A lot of vision problems occur due to the negative effects of free radicals and vitamin A, being a powerful antioxidant, can help prevent them.</p>'),
+(3, 'Tea Nutrition', 'nintchdbpict000187925917.jpg', 'tea-nutrition', '<p>Tea is a low-calorie beverage, with only 2 calories per serving. It contains no carbohydrate, protein, or fat. Many of the health benefits of tea are due to flavonoids which act as antioxidants. One of the most important flavonoids are catechins, specifically epigallocatechin gallate (EGCG). Tea also contains rich phytochemicals called methylxanthines like theophylline, caffeine, and theobromine, which boost metabolism and cause fat burning.</p>\r\n\r\n<b>Anti-aging</b>\r\n<p>It can also help delay the loss of vision, macular degeneration, loosening of muscles, and other conditions induced by aging.The polyphenols in tea act as antioxidants by boosting cell turnover, which reverses signs of skin aging like wrinkling, loss of moisture, photoaging, and roughness.</p>\r\n\r\n<b>Prevents Cancer</b>\r\n<p>Many studies have proved that tea is rich in polyphenols such as catechins and some variants of catechins that are present in its flavonoids and contribute to its rich aroma, have high antioxidant properties and are effective in preventing the growth of tumors and cancer, particularly of the liver, intestines, prostate, kidneys, breasts, and lungs. The alkaloids, like tannin and caffeine, which are present in it, also help in inhibiting the growth of cancerous cells.</p>\r\n\r\n<b>Tea lowers stress hormone levels.</b>\r\n<p>Black tea has been shown to reduce the effects of a stressful event. Participants in a study experienced a 20% drop in cortisol, a stress hormone, after drinking 4 cups of tea daily for one month.</p>\r\n\r\n<b>Tea eases irritability, headaches, nervous tension and insomnia.</b>\r\n<p>Red tea, also known as rooibos, is an herbal tea that originated in Africa. It has been show to have many relaxing effects that help reduce a wide range of irritations and inflammations on the body.</p>'),
+(4, 'Start Working Out Today', '0110healthy-moms.jpg', 'start-working-out-today', '<p>We have all heard it many times before - regular exercise is good for you, and it can help you lose weight. But if you are like many Americans, you are busy, you have a sedentary job, and you haven\'t yet changed your exercise habits. The good news is that it\'s never too late to start. You can start slowly, and find ways to fit more physical activity into your life. To get the most benefit, you should try to get the recommended amount of exercise for your age. If you can do it, the payoff is that you will feel better, help prevent or control many diseases, and likely even live longer.</p>\r\n\r\n<b>Reduce your risk of heart disease naturally</b>\r\n<p>Get out of the medicine cabinet and reduce your risk of heart disease the natural way. In fact, in those patients who already had suffered a stroke, physical activity interventions were more effective than drug treatment. Work with your doctor to set up an exercise plan that works for you.</p>\r\n\r\n<b>Sleep better</b>\r\n<p>If you can’t sleep and instead are prone to tossing and turning, exercising can help you sleep better. By strengthening circadian rhythms, exercising can help keep you more bright-eyed during the day and bring on sleep at night. It also promotes better quality sleep.</p>\r\n\r\n<p>While the effects may not be an immediate quick fix — a recent study found that it can take up to four months for those beginning an exercise routine to have a positive effect on sleep ­— starting a working out plan is the only way to ensure you’ll sleep soundly every night.</p>\r\n\r\n<b>Help you quit smoking.</b> \r\n<p>Exercise may make it easier to quit smoking by reducing your cravings and withdrawal symptoms. It can also help limit the weight you might gain when you stop smoking.</p>\r\n\r\n<b>Improve your mental health and mood.</b> \r\n<p>During exercise, your body releases chemicals that can improve your mood and make you feel more relaxed. This can help you deal with stress and reduce your risk of depression.</p>');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `breakfasts`
+--
+
+CREATE TABLE `breakfasts` (
+  `id` int(11) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `image` varchar(255) NOT NULL,
+  `metaname` text NOT NULL,
+  `about_us` text NOT NULL,
+  `description` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `breakfasts`
+--
+
+INSERT INTO `breakfasts` (`id`, `name`, `image`, `metaname`, `about_us`, `description`) VALUES
+(1, 'Chirer Poha', 'poha-2.jpg', 'chirer-poha', 'Poha Originated from Maharashtra (Called Kanda Poha).Poha with tarri is a relished dish in the Madhya Pradesh state. Poha is made of processed flattened rice, roasted with chilies, onions, mustard and cumin seeds and curry leaves (called Kadi-patta).', ''),
+(2, 'French Toast', 'Egg-Toast.jpg', 'french-toast', '', ''),
+(3, 'Aloo Paratha', 'Easy_Aloo_Paratha_Recipe_North_Indian_Punjabi_Style-1.jpg', 'aloo-paratha', '', ''),
+(4, 'Pancakes', 'edfaaf9f-9bde-426a-8d67-3284e9e496ae.jpg', 'soft-pancakes', '', ''),
+(5, 'Momos', 'momo3-1.jpg', 'momos', '', ''),
+(6, 'Chole Bhature', '428AB422D9955E7F_1.jpg', 'chole-bhature', '', ''),
+(7, 'Rava idli ', 'idli-with-idli-rava-recipe-4.jpg', 'rava-idly', '', 'At first take a deep pan and heat oil in it. Add musturd seeds, when they start to crackle and cumin seeds, curry leaves, dry red chilli and saute for 30-40 seconds. Now add rava and mix well. Roast it on medium flame until it turns light brown, stirring continuously. Turn off the flame and transfer it to a plate. Allow it to cool for 7-8 minutes. Prepare a mixure of curd, chopped green chillies, grated ginger and salt in a large bowl. Now add roasted rava, water and mix well. Make sure that there are no lumps. Add grated carrot and chopped coriander leaves and mixed properly. Keep batter aside for 15 minutes to settle. Now at last pour 2 glasses of water in a streamer and heat over medium flame. Grease ildi molds with oil. Add Eno salt to the batter and stir for a minute. Pour batter in greased molds and stream it for 10-15 minuteson medium flame. After 15 minutes, turn off the flame when molds are cools down a bit remove prepared ildi from it. And serve hot with chutneys.'),
+(8, 'Rava Dhosa', 'dosa-2.jpg', 'rava-dhosa', '', ''),
+(9, 'Utthapam', 'DSC_0314.jpg', 'rava-utthapam', '', ''),
+(10, 'Rava Upma', 'ravva-upma.jpg', 'rava-upma', '', '');
 
 -- --------------------------------------------------------
 
@@ -74,6 +129,7 @@ INSERT INTO `galleries` (`id`, `name`, `created`) VALUES
 CREATE TABLE `ingredients` (
   `id` int(11) NOT NULL,
   `recipe_id` int(11) NOT NULL,
+  `breakfast_id` int(11) NOT NULL,
   `ingredient` varchar(255) NOT NULL,
   `created` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -82,93 +138,107 @@ CREATE TABLE `ingredients` (
 -- Dumping data for table `ingredients`
 --
 
-INSERT INTO `ingredients` (`id`, `recipe_id`, `ingredient`, `created`) VALUES
-(1, 1, '450 gm Ilish Fish', '2018-03-01 17:42:29'),
-(2, 1, '2 tbsp Mustard paste', '2018-03-01 17:42:29'),
-(3, 1, '1/2 tsp kalonji', '2018-03-01 17:42:54'),
-(4, 1, '2 tsp red chili powder', '2018-03-01 17:42:54'),
-(5, 1, '1 tsp turmeric powder', '2018-03-01 17:43:22'),
-(6, 1, 'Salt to taste', '2018-03-01 17:43:22'),
-(7, 1, 'Mustard oil about 3 tbsp', '2018-03-01 17:43:50'),
-(8, 1, '1/2 cup milk', '2018-03-01 17:43:50'),
-(9, 1, '3 green chilies, slited', '2018-03-01 17:44:02'),
-(10, 2, '4 pcs boiled Egg', '2018-03-01 19:11:18'),
-(11, 2, '1 tsp whole cumin ', '2018-03-01 19:11:18'),
-(12, 2, '1 tsp ginger paste', '2018-03-01 19:12:14'),
-(13, 2, '1 tsp cumin paste', '2018-03-01 19:12:14'),
-(14, 2, '1 small tommato pcs ', '2018-03-01 19:13:42'),
-(15, 2, '3 tbsp poppy seed paste', '2018-03-01 19:13:42'),
-(16, 2, '1 tsp turmeric powder', '2018-03-01 19:14:23'),
-(17, 2, 'Salt to taste', '2018-03-01 19:14:23'),
-(18, 2, 'one pinch of sugar', '2018-03-01 19:15:17'),
-(19, 2, '2 dry chillies', '2018-03-01 19:15:17'),
-(20, 2, '3 tbsp Musturd Oil', '2018-03-01 19:22:51'),
-(21, 2, '1 bay leaf', '2018-03-01 19:24:06'),
-(22, 3, '1 1/2 lb (around 3/4 kg) boneless chicken - cut into medium sized pieces', '2018-03-01 19:46:15'),
-(23, 3, '1 medium sized onions - finely chopped', '2018-03-01 19:46:15'),
-(24, 3, '2 medium sized tomatoes - finely chopped & grind to a smooth paste', '2018-03-01 19:46:31'),
-(25, 3, '4-5 Tbsp musturd oil', '2018-03-01 19:47:16'),
-(26, 3, '1 tsp cumin seeds', '2018-03-01 19:47:16'),
-(27, 3, '10-12 fresh curry leaves', '2018-03-01 19:47:45'),
-(28, 3, 'Salt to taste', '2018-03-01 19:47:45'),
-(29, 3, '1 tsp turmeric powder', '2018-03-01 19:48:16'),
-(30, 3, '2 1/2 tsp ginger & garlic paste', '2018-03-01 19:48:16'),
-(31, 3, '1 1/2 tsp cumin powder', '2018-03-01 19:48:40'),
-(32, 3, '1 1/2 tsp coriander powder', '2018-03-01 19:48:40'),
-(33, 3, '3 tsp red chilli powder ', '2018-03-01 19:49:09'),
-(34, 3, '1 cup of water', '2018-03-01 19:49:09'),
-(35, 3, '2 Tbsp yoghurt', '2018-03-01 19:49:41'),
-(36, 3, '2 cups fresh methi leaves ', '2018-03-01 19:49:41'),
-(37, 3, '2 tsp garam masala powder', '2018-03-01 19:50:07'),
-(38, 3, 'Few freshly chopped coriander leaves ', '2018-03-01 19:50:07'),
-(39, 5, '600 to 700 gms Chicken,medium pieces', '2018-03-01 21:08:08'),
-(40, 5, '1.5 tsp Ginger,finely chopped', '2018-03-01 21:08:08'),
-(41, 5, '1.5 tsp Garlic ,finely chopped', '2018-03-01 21:10:06'),
-(42, 5, '1 or 2 Green chilies,cut vertically', '2018-03-01 21:10:06'),
-(43, 5, '2 sprigs Curry leaves', '2018-03-01 21:11:09'),
-(44, 5, 'Onion ,sliced ( 4 large)', '2018-03-01 21:11:09'),
-(45, 5, '1/4 to 1/3 cup Coconut,sliced', '2018-03-01 21:11:54'),
-(46, 5, '1 tsp Turmeric powder', '2018-03-01 21:11:54'),
-(47, 5, '1 tbsp Coriander powder', '2018-03-01 21:17:01'),
-(48, 5, '2 tbsp Kashmiri chili powder', '2018-03-01 21:17:01'),
-(49, 5, '1.5 tsp Garam masala powder', '2018-03-01 21:17:37'),
-(50, 5, '1/2 cup Tomato ,chopped', '2018-03-01 21:17:37'),
-(51, 5, 'Salt - to taste', '2018-03-01 21:18:45'),
-(52, 5, '3/4 tsp Ginger -garlic paste', '2018-03-01 21:18:45'),
-(53, 5, '1/2 tsp Black pepper powder', '2018-03-01 21:20:01'),
-(54, 5, '4 tbsp Musturd oil', '2018-03-01 21:25:46'),
-(55, 4, '6 garlic cloves, finely grated', '2018-03-01 22:45:14'),
-(56, 4, '4 teaspoons finely grated peeled ginger', '2018-03-01 22:45:14'),
-(57, 4, '2 teaspoons coriander powder', '2018-03-01 22:46:53'),
-(58, 4, '2 teaspoons cumin powder', '2018-03-01 22:46:53'),
-(59, 4, '4 teaspoons turmeric powder', '2018-03-01 22:47:22'),
-(60, 4, '2 teaspoons garam masala', '2018-03-01 22:47:22'),
-(61, 4, '1½ cups whole-milk yogurt', '2018-03-01 22:53:35'),
-(62, 4, '2 pounds skinless, boneless chicken breasts, halved lengthwise', '2018-03-01 22:53:35'),
-(63, 4, '3 tablespoons butter', '2018-03-01 22:54:08'),
-(64, 4, '1 small onion, thinly sliced', '2018-03-01 22:54:08'),
-(65, 4, '¼ cup tomato paste', '2018-03-01 22:54:32'),
-(66, 4, '6 cardamom pods, crushed', '2018-03-01 22:54:32'),
-(67, 4, '1/2 teaspoons crushed red pepper flakes', '2018-03-01 22:55:02'),
-(68, 4, '2 cups heavy cream', '2018-03-01 22:55:02'),
-(69, 6, '4 whole legs of chicken', '2018-03-01 23:18:58'),
-(70, 6, '3 large onions ground to a paste with a little water ( should make about 3 cups)', '2018-03-01 23:18:58'),
-(71, 6, '3 tbsp ginger garlic paste', '2018-03-01 23:19:30'),
-(72, 6, '2 tomatoes grated', '2018-03-01 23:19:30'),
-(73, 6, '1 tbsp poppy seeds ground to a paste', '2018-03-01 23:19:54'),
-(74, 6, '1 cup hung yogurt', '2018-03-01 23:20:15'),
-(75, 6, '¼ cup milk', '2018-03-01 23:20:15'),
-(76, 6, '1 tbsp red chilli powder', '2018-03-01 23:20:40'),
-(77, 6, '2 green chillis', '2018-03-01 23:20:40'),
-(78, 6, '1 tsp turmeric powder', '2018-03-01 23:21:02'),
-(79, 6, '2 tsp garam masala powder', '2018-03-01 23:21:02'),
-(80, 6, '1 tsp Kewra essence', '2018-03-01 23:21:25'),
-(81, 6, '1 tsp rose water', '2018-03-01 23:21:25'),
-(82, 6, '1 cup musturd oil', '2018-03-01 23:21:58'),
-(83, 6, '2 tbsp Ghee', '2018-03-01 23:21:58'),
-(84, 6, '1 Bay Leaf', '2018-03-01 23:22:29'),
-(85, 6, '4 cloves', '2018-03-01 23:22:29'),
-(86, 6, '4-5 pods cardamoms', '2018-03-01 23:22:47');
+INSERT INTO `ingredients` (`id`, `recipe_id`, `breakfast_id`, `ingredient`, `created`) VALUES
+(1, 1, 0, '450 gm Ilish Fish', '2018-03-01 17:42:29'),
+(2, 1, 0, '2 tbsp Mustard paste', '2018-03-01 17:42:29'),
+(3, 1, 0, '1/2 tsp kalonji', '2018-03-01 17:42:54'),
+(4, 1, 0, '2 tsp red chili powder', '2018-03-01 17:42:54'),
+(5, 1, 0, '1 tsp turmeric powder', '2018-03-01 17:43:22'),
+(6, 1, 0, 'Salt to taste', '2018-03-01 17:43:22'),
+(7, 1, 0, 'Mustard oil about 3 tbsp', '2018-03-01 17:43:50'),
+(8, 1, 0, '1/2 cup milk', '2018-03-01 17:43:50'),
+(9, 1, 0, '3 green chilies, slited', '2018-03-01 17:44:02'),
+(10, 2, 0, '4 pcs boiled Egg', '2018-03-01 19:11:18'),
+(11, 2, 0, '1 tsp whole cumin ', '2018-03-01 19:11:18'),
+(12, 2, 0, '1 tsp ginger paste', '2018-03-01 19:12:14'),
+(13, 2, 0, '1 tsp cumin paste', '2018-03-01 19:12:14'),
+(14, 2, 0, '1 small tommato pcs ', '2018-03-01 19:13:42'),
+(15, 2, 0, '3 tbsp poppy seed paste', '2018-03-01 19:13:42'),
+(16, 2, 0, '1 tsp turmeric powder', '2018-03-01 19:14:23'),
+(17, 2, 0, 'Salt to taste', '2018-03-01 19:14:23'),
+(18, 2, 0, 'one pinch of sugar', '2018-03-01 19:15:17'),
+(19, 2, 0, '2 dry chillies', '2018-03-01 19:15:17'),
+(20, 2, 0, '3 tbsp Musturd Oil', '2018-03-01 19:22:51'),
+(21, 2, 0, '1 bay leaf', '2018-03-01 19:24:06'),
+(22, 3, 0, '1 1/2 lb (around 3/4 kg) boneless chicken - cut into medium sized pieces', '2018-03-01 19:46:15'),
+(23, 3, 0, '1 medium sized onions - finely chopped', '2018-03-01 19:46:15'),
+(24, 3, 0, '2 medium sized tomatoes - finely chopped & grind to a smooth paste', '2018-03-01 19:46:31'),
+(25, 3, 0, '4-5 Tbsp musturd oil', '2018-03-01 19:47:16'),
+(26, 3, 0, '1 tsp cumin seeds', '2018-03-01 19:47:16'),
+(27, 3, 0, '10-12 fresh curry leaves', '2018-03-01 19:47:45'),
+(28, 3, 0, 'Salt to taste', '2018-03-01 19:47:45'),
+(29, 3, 0, '1 tsp turmeric powder', '2018-03-01 19:48:16'),
+(30, 3, 0, '2 1/2 tsp ginger & garlic paste', '2018-03-01 19:48:16'),
+(31, 3, 0, '1 1/2 tsp cumin powder', '2018-03-01 19:48:40'),
+(32, 3, 0, '1 1/2 tsp coriander powder', '2018-03-01 19:48:40'),
+(33, 3, 0, '3 tsp red chilli powder ', '2018-03-01 19:49:09'),
+(34, 3, 0, '1 cup of water', '2018-03-01 19:49:09'),
+(35, 3, 0, '2 Tbsp yoghurt', '2018-03-01 19:49:41'),
+(36, 3, 0, '2 cups fresh methi leaves ', '2018-03-01 19:49:41'),
+(37, 3, 0, '2 tsp garam masala powder', '2018-03-01 19:50:07'),
+(38, 3, 0, 'Few freshly chopped coriander leaves ', '2018-03-01 19:50:07'),
+(39, 5, 0, '600 to 700 gms Chicken,medium pieces', '2018-03-01 21:08:08'),
+(40, 5, 0, '1.5 tsp Ginger,finely chopped', '2018-03-01 21:08:08'),
+(41, 5, 0, '1.5 tsp Garlic ,finely chopped', '2018-03-01 21:10:06'),
+(42, 5, 0, '1 or 2 Green chilies,cut vertically', '2018-03-01 21:10:06'),
+(43, 5, 0, '2 sprigs Curry leaves', '2018-03-01 21:11:09'),
+(44, 5, 0, 'Onion ,sliced ( 4 large)', '2018-03-01 21:11:09'),
+(45, 5, 0, '1/4 to 1/3 cup Coconut,sliced', '2018-03-01 21:11:54'),
+(46, 5, 0, '1 tsp Turmeric powder', '2018-03-01 21:11:54'),
+(47, 5, 0, '1 tbsp Coriander powder', '2018-03-01 21:17:01'),
+(48, 5, 0, '2 tbsp Kashmiri chili powder', '2018-03-01 21:17:01'),
+(49, 5, 0, '1.5 tsp Garam masala powder', '2018-03-01 21:17:37'),
+(50, 5, 0, '1/2 cup Tomato ,chopped', '2018-03-01 21:17:37'),
+(51, 5, 0, 'Salt - to taste', '2018-03-01 21:18:45'),
+(52, 5, 0, '3/4 tsp Ginger -garlic paste', '2018-03-01 21:18:45'),
+(53, 5, 0, '1/2 tsp Black pepper powder', '2018-03-01 21:20:01'),
+(54, 5, 0, '4 tbsp Musturd oil', '2018-03-01 21:25:46'),
+(55, 4, 0, '6 garlic cloves, finely grated', '2018-03-01 22:45:14'),
+(56, 4, 0, '4 teaspoons finely grated peeled ginger', '2018-03-01 22:45:14'),
+(57, 4, 0, '2 teaspoons coriander powder', '2018-03-01 22:46:53'),
+(58, 4, 0, '2 teaspoons cumin powder', '2018-03-01 22:46:53'),
+(59, 4, 0, '4 teaspoons turmeric powder', '2018-03-01 22:47:22'),
+(60, 4, 0, '2 teaspoons garam masala', '2018-03-01 22:47:22'),
+(61, 4, 0, '1½ cups whole-milk yogurt', '2018-03-01 22:53:35'),
+(62, 4, 0, '2 pounds skinless, boneless chicken breasts, halved lengthwise', '2018-03-01 22:53:35'),
+(63, 4, 0, '3 tablespoons butter', '2018-03-01 22:54:08'),
+(64, 4, 0, '1 small onion, thinly sliced', '2018-03-01 22:54:08'),
+(65, 4, 0, '¼ cup tomato paste', '2018-03-01 22:54:32'),
+(66, 4, 0, '6 cardamom pods, crushed', '2018-03-01 22:54:32'),
+(67, 4, 0, '1/2 teaspoons crushed red pepper flakes', '2018-03-01 22:55:02'),
+(68, 4, 0, '2 cups heavy cream', '2018-03-01 22:55:02'),
+(69, 6, 0, '4 whole legs of chicken', '2018-03-01 23:18:58'),
+(70, 6, 0, '3 large onions ground to a paste with a little water ( should make about 3 cups)', '2018-03-01 23:18:58'),
+(71, 6, 0, '3 tbsp ginger garlic paste', '2018-03-01 23:19:30'),
+(72, 6, 0, '2 tomatoes grated', '2018-03-01 23:19:30'),
+(73, 6, 0, '1 tbsp poppy seeds ground to a paste', '2018-03-01 23:19:54'),
+(74, 6, 0, '1 cup hung yogurt', '2018-03-01 23:20:15'),
+(75, 6, 0, '¼ cup milk', '2018-03-01 23:20:15'),
+(76, 6, 0, '1 tbsp red chilli powder', '2018-03-01 23:20:40'),
+(77, 6, 0, '2 green chillis', '2018-03-01 23:20:40'),
+(78, 6, 0, '1 tsp turmeric powder', '2018-03-01 23:21:02'),
+(79, 6, 0, '2 tsp garam masala powder', '2018-03-01 23:21:02'),
+(80, 6, 0, '1 tsp Kewra essence', '2018-03-01 23:21:25'),
+(81, 6, 0, '1 tsp rose water', '2018-03-01 23:21:25'),
+(82, 6, 0, '1 cup musturd oil', '2018-03-01 23:21:58'),
+(83, 6, 0, '2 tbsp Ghee', '2018-03-01 23:21:58'),
+(84, 6, 0, '1 Bay Leaf', '2018-03-01 23:22:29'),
+(85, 6, 0, '4 cloves', '2018-03-01 23:22:29'),
+(86, 6, 0, '4-5 pods cardamoms', '2018-03-01 23:22:47'),
+(87, 0, 7, '1 cup Rava', '2018-03-02 15:43:10'),
+(88, 0, 7, '1/2 tsp Mustard Seeds', '2018-03-02 15:43:10'),
+(89, 0, 7, '1/2 tsp Cumin Seeds', '2018-03-02 15:43:32'),
+(90, 0, 7, '1-2 sprigs Curry Leaves', '2018-03-02 15:43:32'),
+(91, 0, 7, '1 Dry red Chilli', '2018-03-02 15:43:51'),
+(92, 0, 7, '1/3 cup Thick Yogurt', '2018-03-02 15:43:51'),
+(93, 0, 7, '1/2 cup grated Carrot', '2018-03-02 15:44:10'),
+(94, 0, 7, '2 green chillies, finely chopped', '2018-03-02 15:44:10'),
+(95, 0, 7, '1 tsp grated Ginger', '2018-03-02 15:44:29'),
+(96, 0, 7, '1 cup Water', '2018-03-02 15:44:29'),
+(97, 0, 7, '2 tsp finely chopped Coriander Leaves', '2018-03-02 15:44:50'),
+(98, 0, 7, '1 tsp Eno Fruit Salt', '2018-03-02 15:44:50'),
+(99, 0, 7, '2 tbsp oil', '2018-03-02 15:45:09'),
+(100, 0, 7, 'Salt to taste', '2018-03-02 15:45:09');
 
 -- --------------------------------------------------------
 
@@ -232,6 +302,18 @@ INSERT INTO `users` (`id`, `first_name`, `middle_name`, `last_name`, `email`, `p
 --
 
 --
+-- Indexes for table `blogs`
+--
+ALTER TABLE `blogs`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `breakfasts`
+--
+ALTER TABLE `breakfasts`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `galleries`
 --
 ALTER TABLE `galleries`
@@ -260,6 +342,18 @@ ALTER TABLE `users`
 --
 
 --
+-- AUTO_INCREMENT for table `blogs`
+--
+ALTER TABLE `blogs`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
+--
+-- AUTO_INCREMENT for table `breakfasts`
+--
+ALTER TABLE `breakfasts`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+
+--
 -- AUTO_INCREMENT for table `galleries`
 --
 ALTER TABLE `galleries`
@@ -269,7 +363,7 @@ ALTER TABLE `galleries`
 -- AUTO_INCREMENT for table `ingredients`
 --
 ALTER TABLE `ingredients`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=87;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=101;
 
 --
 -- AUTO_INCREMENT for table `recipes`

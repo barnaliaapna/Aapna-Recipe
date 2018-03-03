@@ -9,6 +9,14 @@
 		<link rel="stylesheet" href="<?php echo $this->Url->build('/');?>assets/css/style.css" />
 		<link rel="shortcut icon" type="image/x-icon" href="<?php echo $this->Url->build('/');?>favicon.ico">
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<script>
+		  (adsbygoogle = window.adsbygoogle || []).push({
+		    google_ad_client: "ca-pub-4667727216643481",
+		    enable_page_level_ads: true
+		  });
+		</script>
 	</head>
 	<body class="homepage">
 		<div id="page-wrapper">
@@ -46,77 +54,14 @@
 			<!-- Carousel -->
 				<section class="carousel">
 					<div class="reel">
-
+						<?php foreach($top_breakfasts as $breakfast):?>
 						<article>
-							<a href="#" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/pic01.jpg" alt="" /></a>
+							<a href="<?php echo $this->Url->build('/');?>Breakfasts/details/<?php echo $breakfast['metaname'];?>" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $breakfast['image'];?>" alt="" width="400px" height="300px" /></a>
 							<header>
-								<h3><a href="#">Pulvinar sagittis congue</a></h3>
+								<h3><a href="<?php echo $this->Url->build('/');?>Breakfasts/details/<?php echo $breakfast['metaname'];?>"><?php echo $breakfast['name'];?></a></h3>
 							</header>
 						</article>
-
-						<article>
-							<a href="#" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/pic02.jpg" alt="" /></a>
-							<header>
-								<h3><a href="#">Fermentum sagittis proin</a></h3>
-							</header>
-						</article>
-
-						<article>
-							<a href="#" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/pic03.jpg" alt="" /></a>
-							<header>
-								<h3><a href="#">Sed quis rhoncus placerat</a></h3>
-							</header>
-						</article>
-
-						<article>
-							<a href="#" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/pic04.jpg" alt="" /></a>
-							<header>
-								<h3><a href="#">Ultrices urna sit lobortis</a></h3>
-							</header>
-						</article>
-
-						<article>
-							<a href="#" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/pic05.jpg" alt="" /></a>
-							<header>
-								<h3><a href="#">Varius magnis sollicitudin</a></h3>
-							</header>
-						</article>
-
-						<article>
-							<a href="#" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/pic01.jpg" alt="" /></a>
-							<header>
-								<h3><a href="#">Pulvinar sagittis congue</a></h3>
-							</header>
-						</article>
-
-						<article>
-							<a href="#" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/pic02.jpg" alt="" /></a>
-							<header>
-								<h3><a href="#">Fermentum sagittis proin</a></h3>
-							</header>
-						</article>
-
-						<article>
-							<a href="#" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/pic03.jpg" alt="" /></a>
-							<header>
-								<h3><a href="#">Sed quis rhoncus placerat</a></h3>
-							</header>
-						</article>
-
-						<article>
-							<a href="#" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/pic04.jpg" alt="" /></a>
-							<header>
-								<h3><a href="#">Ultrices urna sit lobortis</a></h3>
-							</header>
-						</article>
-
-						<article>
-							<a href="#" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/pic05.jpg" alt="" /></a>
-							<header>
-								<h3><a href="#">Varius magnis sollicitudin</a></h3>
-							</header>
-						</article>
-
+						<?php endforeach;?>
 					</div>
 				</section>
 
@@ -137,7 +82,7 @@
 							There are many ways to make meals healthier. Limit fats, sugars and salt and include plenty of vegetables, fruit, grains, lean meats and low-fat dairy in your cooking. Foods with added fats, sugars or salt are less healthy than food in which these are found naturally.
 						</p>
 						<footer>
-							<a href="#" class="button">Continue Reading</a>
+							<a href="<?php echo $this->Url->build('/');?>AboutUs/eating_healthy_food" class="button">Continue Reading</a>
 						</footer>
 					</article>
 

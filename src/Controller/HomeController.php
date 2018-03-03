@@ -37,13 +37,16 @@ class HomeController extends AppController
 		$galleryTable=TableRegistry::get('galleries');
         $all_galleries=$galleryTable->find('all')->order('rand()')->limit(6)->toArray();
 
-        $this->set(compact('all_galleries'));
-
-
         $recipesTable=TableRegistry::get('recipes');
         $handsoff_recipe=$recipesTable->find('all')->order('rand()')->limit(3)->toArray();
 
-        $this->set(compact('all_galleries','handsoff_recipe'));
+        $blogsTable=TableRegistry::get('blogs');
+        $recent_blogs=$blogsTable->find('all')->order(['id'=>'DESC'])->limit(4)->toArray();
+
+        $breakfastsTable=TableRegistry::get('breakfasts');
+        $top_breakfasts=$breakfastsTable->find('all')->order(['rand()'])->limit(10)->toArray();
+
+        $this->set(compact('all_galleries','handsoff_recipe','recent_blogs','top_breakfasts'));
 	}
 
 }

@@ -9,6 +9,13 @@
 		<link rel="stylesheet" href="<?php echo $this->Url->build('/');?>assets/css/style.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<link rel="shortcut icon" type="image/x-icon" href="<?php echo $this->Url->build('/');?>favicon.ico">
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<script>
+		  (adsbygoogle = window.adsbygoogle || []).push({
+		    google_ad_client: "ca-pub-4667727216643481",
+		    enable_page_level_ads: true
+		  });
+		</script>
 	</head>
 	<body class="left-sidebar">
 		<div id="page-wrapper">

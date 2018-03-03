@@ -41,38 +41,16 @@
 						<h2 class="icon fa-file circled"><span class="label">Posts</span></h2>
 					</header>
 					<ul class="divided">
+						<?php foreach($recent_blogs as $blogs):?>
 						<li>
 							<article class="post stub">
 								<header>
-									<h3><a href="#">Nisl fermentum integer</a></h3>
+									<h3><a href="<?php echo $this->Url->build('/');?>Blogs/details/<?php echo $blogs['short_content'];?>"><?php echo $blogs['name'];?></a></h3>
 								</header>
 								<span class="timestamp">3 hours ago</span>
 							</article>
 						</li>
-						<li>
-							<article class="post stub">
-								<header>
-									<h3><a href="#">Phasellus portitor lorem</a></h3>
-								</header>
-								<span class="timestamp">6 hours ago</span>
-							</article>
-						</li>
-						<li>
-							<article class="post stub">
-								<header>
-									<h3><a href="#">Magna tempus consequat</a></h3>
-								</header>
-								<span class="timestamp">Yesterday</span>
-							</article>
-						</li>
-						<li>
-							<article class="post stub">
-								<header>
-									<h3><a href="#">Feugiat lorem ipsum</a></h3>
-								</header>
-								<span class="timestamp">2 days ago</span>
-							</article>
-						</li>
+						<?php endforeach;?>
 					</ul>
 				</section>
 

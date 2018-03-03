@@ -29,10 +29,25 @@ use Cake\ORM\TableRegistry;
  */
 class AboutUsController extends AppController
 {
+	public function initialize()
+	{
+		$this->viewBuilder()->setLayout('nosidebar');
+	}
 
 	public function index()
 	{
-		$this->viewBuilder()->setLayout('nosidebar');
+		
+	}
+
+	public function breakfastIsImportantToUs()
+	{
+		
+	}
+
+
+	public function eatingHealthyFood()
+	{
+
 	}
 
 }
