@@ -161,3 +161,81 @@ Stack Trace:
 #26 {main}
 
 
+2018-03-03 00:14:42 Warning: Warning (2): Invalid argument supplied for foreach() in [E:\xampp\htdocs\RecipeBook\src\Template\Recipes\details.ctp, line 56]
+Request URL: /Recipes/details/chirer-poha
+Referer URL: http://localhost/RecipeBook/Breakfasts/details/rava-idly
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Recipes\details.ctp, line 56
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1196
+Cake\View\View::_render() - CORE\src\View\View.php, line 1157
+Cake\View\View::render() - CORE\src\View\View.php, line 765
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 108
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 104
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-03-03 00:14:42 Warning: Warning (512): Unable to emit headers. Headers sent in file=E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Debugger.php line=850 in [E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /Recipes/details/chirer-poha
+Referer URL: http://localhost/RecipeBook/Breakfasts/details/rava-idly
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-03-03 00:14:42 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 148]
+Request URL: /Recipes/details/chirer-poha
+Referer URL: http://localhost/RecipeBook/Breakfasts/details/rava-idly
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 148
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-03-03 00:14:42 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /Recipes/details/chirer-poha
+Referer URL: http://localhost/RecipeBook/Breakfasts/details/rava-idly
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2018-03-03 00:14:42 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Error\Debugger.php:850) in [E:\xampp\htdocs\RecipeBook\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /Recipes/details/chirer-poha
+Referer URL: http://localhost/RecipeBook/Breakfasts/details/rava-idly
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 106
+[main] - ROOT\webroot\index.php, line 40
+
+
+

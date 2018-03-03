@@ -16,7 +16,7 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo $this->Url->build('/');?>css/main.css">
 	<link rel="stylesheet" href="<?php echo $this->Url->build('/');?>assets/css/main.css" />
 	<link rel="stylesheet" href="<?php echo $this->Url->build('/');?>assets/css/style.css" />
-	<link rel="shortcut icon" type="image/x-icon" href="<?php echo $this->Url->build('/');?>favicon.ico">
+	<link rel="shortcut icon" type="image/x-icon" href="<?php echo $this->Url->build('/');?>favicon.ico">	
 </head>
 <body>
 	<div id="page-wrapper">

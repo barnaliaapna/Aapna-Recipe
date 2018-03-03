@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 03, 2018 at 01:07 AM
+-- Generation Time: Mar 03, 2018 at 05:40 AM
 -- Server version: 10.1.30-MariaDB
 -- PHP Version: 7.2.2
 
@@ -66,16 +66,15 @@ CREATE TABLE `breakfasts` (
 --
 
 INSERT INTO `breakfasts` (`id`, `name`, `image`, `metaname`, `about_us`, `description`) VALUES
-(1, 'Chirer Poha', 'poha-2.jpg', 'chirer-poha', 'Poha Originated from Maharashtra (Called Kanda Poha).Poha with tarri is a relished dish in the Madhya Pradesh state. Poha is made of processed flattened rice, roasted with chilies, onions, mustard and cumin seeds and curry leaves (called Kadi-patta).', ''),
-(2, 'French Toast', 'Egg-Toast.jpg', 'french-toast', '', ''),
-(3, 'Aloo Paratha', 'Easy_Aloo_Paratha_Recipe_North_Indian_Punjabi_Style-1.jpg', 'aloo-paratha', '', ''),
-(4, 'Pancakes', 'edfaaf9f-9bde-426a-8d67-3284e9e496ae.jpg', 'soft-pancakes', '', ''),
-(5, 'Momos', 'momo3-1.jpg', 'momos', '', ''),
-(6, 'Chole Bhature', '428AB422D9955E7F_1.jpg', 'chole-bhature', '', ''),
-(7, 'Rava idli ', 'idli-with-idli-rava-recipe-4.jpg', 'rava-idly', '', 'At first take a deep pan and heat oil in it. Add musturd seeds, when they start to crackle and cumin seeds, curry leaves, dry red chilli and saute for 30-40 seconds. Now add rava and mix well. Roast it on medium flame until it turns light brown, stirring continuously. Turn off the flame and transfer it to a plate. Allow it to cool for 7-8 minutes. Prepare a mixure of curd, chopped green chillies, grated ginger and salt in a large bowl. Now add roasted rava, water and mix well. Make sure that there are no lumps. Add grated carrot and chopped coriander leaves and mixed properly. Keep batter aside for 15 minutes to settle. Now at last pour 2 glasses of water in a streamer and heat over medium flame. Grease ildi molds with oil. Add Eno salt to the batter and stir for a minute. Pour batter in greased molds and stream it for 10-15 minuteson medium flame. After 15 minutes, turn off the flame when molds are cools down a bit remove prepared ildi from it. And serve hot with chutneys.'),
-(8, 'Rava Dhosa', 'dosa-2.jpg', 'rava-dhosa', '', ''),
-(9, 'Utthapam', 'DSC_0314.jpg', 'rava-utthapam', '', ''),
-(10, 'Rava Upma', 'ravva-upma.jpg', 'rava-upma', '', '');
+(1, 'Chirer Poha', 'poha-2.jpg', 'chirer-poha', 'Poha Originated from Maharashtra (Called Kanda Poha).Poha with tarri is a relished dish in the Madhya Pradesh state. Poha is made of processed flattened rice, roasted with chilies, onions, mustard and cumin seeds and curry leaves (called Kadi-patta).', 'At First put the poha in a sieve and wash under running water for 2 minutes. Keep aside to drain. Heat the oil in a pan on a medium flame and add the mustard seeds, curry leaves, and green chilies. Fry till the spluttering stops and then add the onion. Fry till soft and translucent. Add the peanuts and potatoes and frequently stirring, cook for 2-3 minutes. Drain the poha completely to remove all water and add it to the above mix. Add the turmeric powder and stir well to blend all ingredients. Cook for another minute. Turn off the fire. Pour ?lime juice over the poha and mix well. Garnish with chopped coriander and serve while hot. Poha tastes great with Mint-Coriander Chutney!'),
+(2, 'French Toast', 'Egg-Toast.jpg', 'french-toast', 'French toast recipe with egg – Delicious and easy egg breakfast recipe made with bread. French toast is a popular classic breakfast that can also be served as a snack. To make a good french toast, the kind of bread used matters the most.', 'At First beat egg until fluffy. Add all vegetables and spices in it. Then take a pan into stove. Heat oil, deep the bread slices into beated egg and put it into pan to fry. When one side is turn into golden brown then turn to fry another side. Place it plate and serve hot with tomato sauce.'),
+(3, 'Aloo Paratha', 'Easy_Aloo_Paratha_Recipe_North_Indian_Punjabi_Style-1.jpg', 'aloo-paratha', 'Aloo Paratha is a bread dish originating from the Indian subcontinent; the recipe is one of the most popular breakfast dishes throughout western, central and northern regions of India.', 'At First, in a small mixing bowl mash boiled potatoes well. Then add grated ginger, kashmiri chili powder, coriander powder, salt, garam masala, chopped coriander leaves, dry mango powder , ajwain seeds and mix well. Then in a large bowl take wheat flour and salt. Add water and knead the dough for 5 minutes. Forthermore, grease the dough with a tsp of oil and rest for atleast 20 minutes. After 20 minutes pinch a medium sized ball dough, roll about 5 inches in diameter, place the prepared stuffing in the center.Take the edge and start pleating bringing to center and press the pleats from center. Furthermore, sprinkle some flour and roll to of a chapati size. Then on a hot tava place the rolled paratha and cook both sides, also add oil / ghee and press slightly. Finally, serve hot aloo parathas with sauce, raita or pickle.'),
+(4, 'Pancakes', 'edfaaf9f-9bde-426a-8d67-3284e9e496ae.jpg', 'soft-pancakes', 'A pancake is a flat cake, often thin and round, prepared from a starch-based batter that may contain eggs, milk and butter and cooked on a hot surface such as a griddle or frying pan, often frying with oil or butter.', 'At first take a bowl and beat egg until fluffy. Add milk and melted butter. Add dry ingredients and mix well. Heat a heavy griddle or fry pan which is greased with a little butter on a paper towel. When the pan is heated enough pour a small amount of batter (approx 1/4 cup) into pan and tip to spread out or spread with spoon. When bubbles appear on surface and begin to break, turn over and cook the other side.'),
+(5, 'Chicken Momos', 'momo3-1.jpg', 'chicken-momos', 'Momo is a type of steamed dumpling with some form of filling. Momo has become a traditional delicacy in Nepal, Tibet and among Nepalese/Tibetan communities in Bhutan, as well as people of Sikkim. ', 'At first to make chilli souce take a bowl and cut the red chillies, soak them in water for about two hours.Cut into small pieces and soak in the 3 tbsp of vinegar for two hours. After that take 25gm garlic peeled, salt, sugar and soaked chilies with vinegar into a mixie and make smooth paste. Now for making dough, knead the refined flour, baking powder, water and salt together. Cover and keep aside for 30 minutes. Now take a pan into stove, heat oil and add onions, garlic paste fry sometimes after that add minced chicken and stir until chicken turns into brown. then add soya souce, 1/4 tsp vinegar, black pepper powder and salt to taste. Turn off the flame. Now take a streamer, add some water and keep on a medium flame. Now roll the dough into very thin 4-5 inch rounds. Take each round piece and place some filling in the center. Bring the edges together and twist to seal  it. Now stream in a streamer about 10 minutes and serve hot with chilly sauce. '),
+(7, 'Rava idli ', 'idli-with-idli-rava-recipe-4.jpg', 'rava-idly', 'No need for soaking it for hours and no need for fermentation, just give yourself 30 minutes and you can enjoy this soft and fluffy Instant Rava Idli.', 'At first take a deep pan and heat oil in it. Add musturd seeds, when they start to crackle and cumin seeds, curry leaves, dry red chilli and saute for 30-40 seconds. Now add rava and mix well. Roast it on medium flame until it turns light brown, stirring continuously. Turn off the flame and transfer it to a plate. Allow it to cool for 7-8 minutes. Prepare a mixure of curd, chopped green chillies, grated ginger and salt in a large bowl. Now add roasted rava, water and mix well. Make sure that there are no lumps. Add grated carrot and chopped coriander leaves and mixed properly. Keep batter aside for 15 minutes to settle. Now at last pour 2 glasses of water in a streamer and heat over medium flame. Grease ildi molds with oil. Add Eno salt to the batter and stir for a minute. Pour batter in greased molds and stream it for 10-15 minuteson medium flame. After 15 minutes, turn off the flame when molds are cools down a bit remove prepared ildi from it. And serve hot with chutneys.'),
+(8, 'Rava Dosa', 'dosa-2.jpg', 'rava-dhosa', 'Rava dosa is an instant and quick recipe and need no pre-planning. If you looking out for making something nice and quick for breakfast then semolina or rava dosa can be a good option for you. Making this dosa recipe is really easy and without any hassles.', 'At First add maida, rice flour, rava, salt in a mixing bowl. Add water and make into a very thin batter.Set it aside for 15 mins. Now make seasoning. Heat oil , add mustard, cumin and pepper and sauté for a min. Add in ginger, curry leaves, green chilli, onion and mixwell. Saute for a min. Add this to the batter. Add coriander leaves too and mix well. Heat a non stick tawa and pour couple of ladleful of batter from a height so that it forms small holes in this. Don’t Spread the batter..Just pour it thinly here and there. Drizzle some oil and let it cook for couple of minutes or till it turn golden. Flip over and cook for a min. Remove and Serve.'),
+(9, 'Utthapam', 'DSC_0314.jpg', 'rava-utthapam', 'Uttapam is a dosa-like dish from South India made by cooking ingredients in a batter. Unlike a dosa, which is crisp and crepe-like, uttapam is a thick pancake, with toppings cooked right into the batter.', 'At First in a large bowl add finely chopped onions, carrots, green chilly also add salt as per the taste. After adding salt, mix it properly with big spoon and keep it aside. Then in a large bowling mix add 1 cup of rava/sooji/semolina add ½ cup of yoghurt/curd and mix well rava and curd. Now add ½ cup of water and make a thick batter. add some more water if required. Add ¾ tsp of salt and mix it well. Keep it aside for 20 minutes. After 20 minutes, now add ½ tsp of baking soda. once baking soda is added, start preparing uttappa immediately. In a dosa pan pour a ladleful of uttappa batter and spread in a circular motion. maintain the thickness of uttappa and it should not be like thin dosa. Now spread the toppings on top of the uttappa evenly. after the topping have been added press gently so the toppings are pressed into the batter add 1 tsp of oil around the uttappa. Cover it and let it cook for 1-2 minutes in low flame. Flip over on the other side once the uttappa turns golden brown. cook it for 1-2 minutes in a low flame. Your instant rava uttappam or sooji uttappam is ready. Serve it with chutney of your choice.'),
+(10, 'Rava Upma', 'ravva-upma.jpg', 'rava-upma', 'Rava Upma (Suji Upma) is a popular breakfast dish in India. It is nutritious, tasty and very easy to make at home by mixing and cooking roasted rava (suji, semolina) and sautéed vegetables in water.', 'At First heat oil in a pan and add 1 teaspoon mustard seeds to it. When the mustard seeds begin to crackle, add 1 teaspoon Chana Dal & Urad Dal. Add 1/2 a cup of peanuts and roast them. The Chana Dal and Urad Dal will also get roasted along with the peanuts. Add chopped carrots and bean and fry some time. Then add 5-10 Curry Leaves along with1-2 finely chopped Green Chillies. Also add 1 small finely chopped onion and fry it till it turns golden brown or translucent. Add 2.5 cups of water to the pan along with 1 teaspoon Salt & 1 teaspoon lemon juice and bring it to a boil. Turn the heat setting to low and add the roasted semolina to the mixture. Keep stirring the mixture continuously as it thickens. Turn off the flame when the water has been absorbed and let it sit for 5 minutes. Rava upma is ready.');
 
 -- --------------------------------------------------------
 
@@ -238,7 +237,93 @@ INSERT INTO `ingredients` (`id`, `recipe_id`, `breakfast_id`, `ingredient`, `cre
 (97, 0, 7, '2 tsp finely chopped Coriander Leaves', '2018-03-02 15:44:50'),
 (98, 0, 7, '1 tsp Eno Fruit Salt', '2018-03-02 15:44:50'),
 (99, 0, 7, '2 tbsp oil', '2018-03-02 15:45:09'),
-(100, 0, 7, 'Salt to taste', '2018-03-02 15:45:09');
+(100, 0, 7, 'Salt to taste', '2018-03-02 15:45:09'),
+(101, 0, 5, '120 Gram Refined Flour', '2018-03-02 17:01:41'),
+(102, 0, 5, '1/4 tsp Baking Powder', '2018-03-02 17:01:41'),
+(103, 0, 5, 'Salt to taste', '2018-03-02 17:02:43'),
+(104, 0, 5, '1 Cup Chicken (minced)', '2018-03-02 17:02:43'),
+(105, 0, 5, '1/2 Cup Onions, finely chopped', '2018-03-02 17:03:10'),
+(106, 0, 5, '1/4 tsp Black Pepper Powder', '2018-03-02 17:03:10'),
+(107, 0, 5, '2 Tbsp Oil', '2018-03-02 17:03:31'),
+(108, 0, 5, '1/2 tsp Garlic Paste', '2018-03-02 17:03:31'),
+(109, 0, 5, '1/2 tsp Soya Sauce', '2018-03-02 17:03:51'),
+(110, 0, 5, '4 tbsp Vinegar', '2018-03-02 17:03:51'),
+(111, 0, 5, '25 Gram Garlic, peeled', '2018-03-02 17:05:15'),
+(112, 0, 5, '6 Gram Whole Red Chillies', '2018-03-02 17:05:15'),
+(113, 0, 4, '1 egg', '2018-03-02 17:38:31'),
+(114, 0, 4, '3/4 cup milk', '2018-03-02 17:38:31'),
+(115, 0, 4, '2 tbsp butter', '2018-03-02 17:39:08'),
+(116, 0, 4, '1 cup flour', '2018-03-02 17:39:08'),
+(117, 0, 4, '1 tbsp sugar powder', '2018-03-02 17:39:51'),
+(118, 0, 4, '1 tsp baking powder', '2018-03-02 17:39:51'),
+(119, 0, 4, '1/2 tsp salt', '2018-03-02 17:40:08'),
+(120, 0, 3, '2 large sized potato boiled and peeled', '2018-03-02 18:00:05'),
+(121, 0, 3, '1 tsp ginger grated', '2018-03-02 18:00:05'),
+(122, 0, 3, '¾ tsp kashmiri chili powder / lal mirch powder', '2018-03-02 18:00:32'),
+(123, 0, 3, '½ tsp coriander powder / dhaniya powder', '2018-03-02 18:00:32'),
+(124, 0, 3, 'salt to taste', '2018-03-02 18:00:59'),
+(125, 0, 3, '¼ tsp garam masala', '2018-03-02 18:00:59'),
+(126, 0, 3, '2 tbsp coriander leaves finely chopped', '2018-03-02 18:01:20'),
+(127, 0, 3, '½ tsp aamchur powder / dry mango powder', '2018-03-02 18:01:20'),
+(128, 0, 3, '¼ tsp ajwain seeds / caraway seeds', '2018-03-02 18:01:33'),
+(129, 0, 3, '1 cup whole wheat flour / atta', '2018-03-02 18:02:19'),
+(130, 0, 3, '4 tsp oil or ghee', '2018-03-02 18:02:19'),
+(131, 0, 1, '2 cups poha (flattened rice)', '2018-03-02 18:55:48'),
+(132, 0, 1, '2 tbsp. vegetable oil', '2018-03-02 18:55:48'),
+(133, 0, 1, '1 tsp. mustard seeds', '2018-03-02 18:56:08'),
+(134, 0, 1, '5 to 6 curry leaves', '2018-03-02 18:56:08'),
+(135, 0, 1, '2 dry red chilies ', '2018-03-02 18:56:32'),
+(136, 0, 1, '1 medium onion (chopped fine)', '2018-03-02 18:56:32'),
+(137, 0, 1, '1 large potato (or 2 medium, quartered and sliced very thin)', '2018-03-02 18:56:56'),
+(138, 0, 1, 'A handful of unsalted peanuts (skins removed)', '2018-03-02 18:56:56'),
+(139, 0, 1, 'A pinch of turmeric', '2018-03-02 18:57:16'),
+(140, 0, 1, '1/2 a lime (juiced)', '2018-03-02 18:57:16'),
+(141, 0, 1, 'Salt to taste', '2018-03-02 18:57:35'),
+(142, 0, 1, 'chopped coriander', '2018-03-02 18:57:35'),
+(143, 0, 10, '1 Cup Roasted Suji/ Semolina', '2018-03-02 19:04:41'),
+(144, 0, 10, '2.5 Cups of Water', '2018-03-02 19:04:41'),
+(145, 0, 10, '1 Medium Onion, finely chopped', '2018-03-02 19:05:16'),
+(146, 0, 10, '2 Tablespoon cashewes', '2018-03-02 19:05:16'),
+(147, 0, 10, '1-2 Green Chillies, finely chopped', '2018-03-02 19:05:37'),
+(148, 0, 10, '5-10 Curry Leaves', '2018-03-02 19:05:37'),
+(149, 0, 10, '1 Teaspoon Rai / Mustard Seeds', '2018-03-02 19:09:35'),
+(150, 0, 10, 'some Carrot pieces', '2018-03-02 19:09:35'),
+(151, 0, 10, 'Some beans pieces', '2018-03-02 19:10:01'),
+(152, 0, 10, '1 Teaspoon Lemon Juice', '2018-03-02 19:10:01'),
+(153, 0, 10, '1 Teaspoon Chana Dal', '2018-03-02 19:10:24'),
+(154, 0, 10, '1 Teaspoon Urad Dal', '2018-03-02 19:10:24'),
+(155, 0, 10, '1 Teaspoon Salt', '2018-03-02 19:10:34'),
+(156, 0, 2, '2 sliced bread', '2018-03-02 19:17:22'),
+(157, 0, 2, '1 Egg', '2018-03-02 19:17:22'),
+(158, 0, 2, 'Salt to taste', '2018-03-02 19:18:16'),
+(159, 0, 2, '1/2 tsp Turmeric Powder', '2018-03-02 19:18:16'),
+(160, 0, 2, '1/2 tsp cumin powder', '2018-03-02 19:18:46'),
+(161, 0, 2, '1/2 tsp red chilli powder', '2018-03-02 19:18:46'),
+(162, 0, 2, '1 tbsp chopped tomato', '2018-03-02 19:19:36'),
+(163, 0, 2, '1 tbsp chopped green Capcicum', '2018-03-02 19:19:36'),
+(164, 0, 2, '1 tbsp Musturd oil', '2018-03-02 19:21:41'),
+(165, 0, 9, '1 cup rava / sooji / semolina', '2018-03-02 19:27:24'),
+(166, 0, 9, '½ cup yoghurt/curd', '2018-03-02 19:27:24'),
+(167, 0, 9, '½ tsp baking soda', '2018-03-02 19:27:41'),
+(168, 0, 9, '½ cup water to mix or add if required', '2018-03-02 19:28:06'),
+(169, 0, 9, 'salt as per taste', '2018-03-02 19:28:06'),
+(170, 0, 9, '1 onion finely chopped', '2018-03-02 19:28:54'),
+(171, 0, 9, '1 carrot finely chopped', '2018-03-02 19:28:54'),
+(172, 0, 9, '1 green chilli finely chopped', '2018-03-02 19:37:49'),
+(173, 0, 8, 'Rava / Sooji / Semolina – 1 cup', '2018-03-02 19:44:15'),
+(174, 0, 8, 'Rice Flour – 1 cup', '2018-03-02 19:44:15'),
+(175, 0, 8, 'Maida / All Purpose Flour – 1/2 cup', '2018-03-02 19:44:42'),
+(176, 0, 8, 'Salt to taste', '2018-03-02 19:44:42'),
+(177, 0, 8, 'Water as needed', '2018-03-02 19:45:05'),
+(178, 0, 8, 'Oil for frying dosa', '2018-03-02 19:45:05'),
+(179, 0, 8, 'Mustard Seeds – 1 tsp', '2018-03-02 19:45:35'),
+(180, 0, 8, 'Cumin Seeds – 1 tsp', '2018-03-02 19:45:35'),
+(181, 0, 8, 'Whole Pepper – 2 tsp', '2018-03-02 19:46:01'),
+(182, 0, 8, 'Green Chilli – 3 chopped finely', '2018-03-02 19:46:01'),
+(183, 0, 8, 'Curry leaves – 1 sprig', '2018-03-02 19:46:20'),
+(184, 0, 8, 'Ginger – 1 tblspn minced', '2018-03-02 19:46:20'),
+(185, 0, 8, 'Onion –  1 medium size finely chopped', '2018-03-02 19:46:52'),
+(186, 0, 8, 'Coriander Leaves – a big handful finely chopped', '2018-03-02 19:46:52');
 
 -- --------------------------------------------------------
 
@@ -363,7 +448,7 @@ ALTER TABLE `galleries`
 -- AUTO_INCREMENT for table `ingredients`
 --
 ALTER TABLE `ingredients`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=101;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=187;
 
 --
 -- AUTO_INCREMENT for table `recipes`

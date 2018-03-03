@@ -74,9 +74,9 @@
 <div class="row">
 	<?php foreach($similiar_recipe as $similar):?>
 	<article class="4u 12u(mobile) special">
-		<a href="<?php echo $this->Url->build('/');?>Recipes/details/<?php echo $similar['metaname'];?>" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $similar['image'];?>" alt="" width="400px" height="300px" /></a>
+		<a href="<?php echo $this->Url->build('/');?>Breakfasts/details/<?php echo $similar['metaname'];?>" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $similar['image'];?>" alt="" width="400px" height="300px" /></a>
 		<header>
-			<h3><a href="<?php echo $this->Url->build('/');?>Recipes/details/<?php echo $similar['metaname'];?>"><?php echo $similar['name'];?></a></h3>
+			<h3><a href="<?php echo $this->Url->build('/');?>Breakfasts/details/<?php echo $similar['metaname'];?>"><?php echo $similar['name'];?></a></h3>
 		</header>
 		<p>
 			<?php echo $similar['about_us'];?>

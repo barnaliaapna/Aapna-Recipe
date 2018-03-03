@@ -17,6 +17,7 @@
 		    enable_page_level_ads: true
 		  });
 		</script>
+		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a99640d6a7bfcf1"></script>
 	</head>
 	<body class="homepage">
 		<div id="page-wrapper">
@@ -56,7 +57,7 @@
 					<div class="reel">
 						<?php foreach($top_breakfasts as $breakfast):?>
 						<article>
-							<a href="<?php echo $this->Url->build('/');?>Breakfasts/details/<?php echo $breakfast['metaname'];?>" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $breakfast['image'];?>" alt="" width="400px" height="300px" /></a>
+							<a href="<?php echo $this->Url->build('/');?>Breakfasts/details/<?php echo $breakfast['metaname'];?>" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $breakfast['image'];?>" alt="" /></a>
 							<header>
 								<h3><a href="<?php echo $this->Url->build('/');?>Breakfasts/details/<?php echo $breakfast['metaname'];?>"><?php echo $breakfast['name'];?></a></h3>
 							</header>
