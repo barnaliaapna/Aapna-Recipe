@@ -17,7 +17,7 @@
 							</div>
 							<div class="blog-left-right-top">
 								<h4><a href="<?php echo $this->Url->build('/');?>Blogs/details/<?php echo $blogs['short_content'];?>" data-toggle="modal" data-target="#myModal"><?php echo $blogs['name'];?></a></h4>
-								<p>Posted By Admin &nbsp;&nbsp; on <?php echo date('M d, Y',strtotime($blogs['created']));?> &nbsp;&nbsp; <a href="<?php echo $this->Url->build('/');?>Blogs/details/<?php echo $blogs['short_content'];?>">Comments (10)</a></p>
+								<p>Posted By Admin &nbsp;&nbsp; on <?php echo date('M d, Y',strtotime($blogs['created']));?> &nbsp;&nbsp; <!-- <a href="<?php echo $this->Url->build('/');?>Blogs/details/<?php echo $blogs['short_content'];?>">Comments (10)</a> --></p>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
