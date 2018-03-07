@@ -41,6 +41,12 @@ class ContactUsController extends AppController
 
 			$subject='Contact from '.$data['first_name'].' '.$data['last_name'];
 
+			$contactsTable=TableRegistry::get('contacts');
+			$contacts=$contactsTable->newEntity();
+			$contacts=$contactsTable->patchEntity($contacts,$data);
+
+			$contactsTable->save($contacts);
+
 			//$this->mail_to_admin($data['email'],$subject,$data['message']);
 
 			$this->Flash->set('Message send successfully.', [
@@ -51,14 +57,15 @@ class ContactUsController extends AppController
 
 
 	public function mail_to_admin($from,$subject,$message){
-        $this->autoRender = FALSE;
+        //$this->autoRender = FALSE;
         $to = 'info@aapnarecipe.in';
+        //$to = 'barnalijobs@gmail.com';
         $CakeEmail = new Email('default');
+
         $CakeEmail->from([$from => 'Aapna Recipe -- Contact Us'])
     		->to($to)
     		->subject($subject)
     		->send($message);
-        //return TRUE;
     }
 
 }

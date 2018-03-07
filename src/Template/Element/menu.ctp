@@ -1,7 +1,7 @@
 <nav id="nav">
 	<ul>
 		<li><a href="<?php echo $this->Url->build('/');?>">Home</a></li>
-		<li><a href="#">Breakfasts</a></li>
+		<li><a href="<?php echo $this->Url->build('/');?>Breakfasts">Breakfasts</a></li>
 		<li>
 			<a href="#">Recipes</a>
 			<ul>
@@ -15,7 +15,7 @@
 				<li><a href="#">Italian Recipes</a></li>				
 			</ul>
 		</li>
-		<li><a href="#">Food Blogs</a></li>
+		<li><a href="<?php echo $this->Url->build('/');?>Blogs">Food Blogs</a></li>
 		<li><a href="#">Baking & Desserts</a></li>
 		<li><a href="<?php echo $this->Url->build('/');?>AboutUs">About Us</a></li>
 		<li><a href="<?php echo $this->Url->build('/');?>ContactUs">Contact Us</a></li>

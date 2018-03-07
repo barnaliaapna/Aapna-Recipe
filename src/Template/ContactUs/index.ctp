@@ -52,7 +52,7 @@
 					</span>
 
 					<span class="txt2">
-						Mada Center 8th floor, 379 Hudson St, New York, NY 10018 US
+						Aapna Recipe, Kolkata, West Bengal, India
 					</span>
 				</div>
 			</div>

@@ -36,7 +36,11 @@ class BreakfastsController extends AppController
 
 	public function index()
 	{
-		
+		$this->viewBuilder()->setLayout('listing');
+		$breakfastsTable=TableRegistry::get('breakfasts');
+        $recipe_details=$breakfastsTable->find('all')->limit(8)->toArray();
+
+        $this->set(compact('recipe_details'));
 	}
 
 

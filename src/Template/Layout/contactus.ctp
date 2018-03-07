@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Contact V17</title>
+	<title>Aapna Recipe</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="<?php echo $this->Url->build('/');?>vendor/bootstrap/css/bootstrap.min.css">
@@ -18,7 +18,7 @@
 	<link rel="stylesheet" href="<?php echo $this->Url->build('/');?>assets/css/style.css" />
 	<link rel="shortcut icon" type="image/x-icon" href="<?php echo $this->Url->build('/');?>favicon.ico">	
 </head>
-<body>
+<body ondragstart="return false" onselectstart="return false" oncontextmenu="return false">
 	<div id="page-wrapper">
 		<!-- Header -->
 		<div id="header">
@@ -44,7 +44,7 @@
 			<?php echo $this->element('semi_footer');?>
 
 	</div>
-	
+	<script src="<?php echo $this->Url->build('/');?>assets/js/jquery.min.js"></script>
 	<script src="<?php echo $this->Url->build('/');?>vendor/animsition/js/animsition.min.js"></script>
 	<script src="<?php echo $this->Url->build('/');?>vendor/bootstrap/js/popper.js"></script>
 	<script src="<?php echo $this->Url->build('/');?>vendor/bootstrap/js/bootstrap.min.js"></script>
@@ -60,7 +60,7 @@
 	<script src="<?php echo $this->Url->build('/');?>vendor/countdowntime/countdowntime.js"></script>
 	<script src="<?php echo $this->Url->build('/');?>js/main.js"></script>
 
-	<script src="<?php echo $this->Url->build('/');?>assets/js/jquery.min.js"></script>
+	
 	<script src="<?php echo $this->Url->build('/');?>assets/js/jquery.dropotron.min.js"></script>
 	<script src="<?php echo $this->Url->build('/');?>assets/js/jquery.scrolly.min.js"></script>
 	<script src="<?php echo $this->Url->build('/');?>assets/js/jquery.onvisible.min.js"></script>

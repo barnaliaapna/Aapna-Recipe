@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="<?php echo $this->Url->build('/');?>assets/css/style.css" />
 		<link rel="shortcut icon" type="image/x-icon" href="<?php echo $this->Url->build('/');?>favicon.ico">
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-
+		<script src="<?php echo $this->Url->build('/');?>assets/js/jquery.min.js"></script>
 		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		<script>
 		  (adsbygoogle = window.adsbygoogle || []).push({
@@ -17,9 +17,10 @@
 		    enable_page_level_ads: true
 		  });
 		</script>
-		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a99640d6a7bfcf1"></script>
+		<script type="text/javascript"></script>
+		<!-- <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a99640d6a7bfcf1"></script> -->
 	</head>
-	<body class="homepage">
+	<body ondragstart="return false" onselectstart="return false" oncontextmenu="return false" class="homepage">
 		<div id="page-wrapper">
 
 			<!-- Header -->
@@ -120,7 +121,7 @@
 		</div>
 
 		<!-- Scripts -->
-			<script src="<?php echo $this->Url->build('/');?>assets/js/jquery.min.js"></script>
+			
 			<script src="<?php echo $this->Url->build('/');?>assets/js/jquery.dropotron.min.js"></script>
 			<script src="<?php echo $this->Url->build('/');?>assets/js/jquery.scrolly.min.js"></script>
 			<script src="<?php echo $this->Url->build('/');?>assets/js/jquery.onvisible.min.js"></script>

@@ -182,12 +182,24 @@ return [
             // The following keys are used in SMTP transports
             'host' => 'mail.aapnarecipe.in',
             'port' => 587,
-            'timeout' => 30,
+            'timeout' => 60,
             'username' => 'info@aapnarecipe.in',
             'password' => 'B@rnu@123',
             'client' => null,
             'tls' => FALSE,
         ],
+
+        /*'default' => [
+            'className' => 'Smtp',
+            // The following keys are used in SMTP transports
+            'host' => 'ssl://smtp.gmail.com',
+            'port' => 465,
+            'timeout' => 60,
+            'username' => 'barnalijobs@gmail.com',
+            'password' => 'amku3dXe',
+            'client' => null,
+            'tls' => FALSE,
+        ],*/
     ],
 
     /**
@@ -201,10 +213,7 @@ return [
      */
     'Email' => [
         'default' => [
-            'transport' => 'default',
-            'from' => 'you@localhost',
-            //'charset' => 'utf-8',
-            //'headerCharset' => 'utf-8',
+            'transport' => 'default'
         ],
     ],
 

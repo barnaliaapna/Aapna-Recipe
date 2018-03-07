@@ -18,7 +18,7 @@
 		</script>
 		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a99640d6a7bfcf1"></script>
 	</head>
-	<body class="no-sidebar">
+	<body ondragstart="return false" onselectstart="return false" oncontextmenu="return false" class="no-sidebar">
 		<div id="page-wrapper">
 
 			<!-- Header -->
