@@ -7,18 +7,19 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="<?php echo $this->Url->build('/');?>assets/css/main.css" />
 		<link rel="stylesheet" href="<?php echo $this->Url->build('/');?>assets/css/style.css" />
+		<link href="<?php echo $this->Url->build('/');?>assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<link rel="shortcut icon" type="image/x-icon" href="<?php echo $this->Url->build('/');?>favicon.ico">
 		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		<script>
 		  (adsbygoogle = window.adsbygoogle || []).push({
-		    google_ad_client: "ca-pub-4667727216643481",
+		    google_ad_client: "ca-pub-4709770716548116",
 		    enable_page_level_ads: true
 		  });
 		</script>
 		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a99640d6a7bfcf1"></script>
 	</head>
-	<body class="no-sidebar">
+	<body ondragstart="return false" onselectstart="return false" oncontextmenu="return false" class="no-sidebar">
 		<div id="page-wrapper">
 
 			<!-- Header -->

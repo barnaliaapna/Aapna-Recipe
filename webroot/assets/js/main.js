@@ -362,7 +362,7 @@
         }
       }
     },
-     /*shortcut.add("Ctrl+U",function(){
+     shortcut.add("Ctrl+U",function(){
      
     }),
      shortcut.add("Meta+Alt+U",function(){
@@ -377,6 +377,6 @@
 
     shortcut.add("Ctrl+S",function(){
      
-    });*/
+    });
 
 })(jQuery);

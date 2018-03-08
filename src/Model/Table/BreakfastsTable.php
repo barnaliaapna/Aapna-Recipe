@@ -16,6 +16,10 @@ class BreakfastsTable extends Table
        	$this->primaryKey('id');
         $this->hasMany('Ingredients', [
             'foreignKey' => 'breakfast_id'
+        ]);
+
+        $this->belongsTo('Users', [
+            'foreignKey' => 'posted_by_user_id'
         ]);        
     }
 

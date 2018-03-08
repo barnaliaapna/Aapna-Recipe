@@ -16,6 +16,10 @@ class DessertsTable extends Table
        	$this->primaryKey('id');
         $this->hasMany('Ingredients', [
             'foreignKey' => 'dessert_id'
+        ]); 
+
+        $this->belongsTo('Users', [
+            'foreignKey' => 'posted_by_user_id'
         ]);        
     }
 

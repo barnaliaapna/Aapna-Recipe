@@ -7,15 +7,16 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="<?php echo $this->Url->build('/');?>assets/css/main.css" />
 		<link rel="stylesheet" href="<?php echo $this->Url->build('/');?>assets/css/style.css" />
+		
 		<link rel="shortcut icon" type="image/x-icon" href="<?php echo $this->Url->build('/');?>favicon.ico">
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<script src="<?php echo $this->Url->build('/');?>assets/js/jquery.min.js"></script>
 		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		<script>
 		  (adsbygoogle = window.adsbygoogle || []).push({
-		    google_ad_client: "ca-pub-4667727216643481",
-		    enable_page_level_ads: true
-		  });
+    google_ad_client: "ca-pub-4709770716548116",
+    enable_page_level_ads: true
+  });
 		</script>
 		<script type="text/javascript"></script>
 		<!-- <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a99640d6a7bfcf1"></script> -->

@@ -44,6 +44,22 @@
 				</p>  -->
 			</header>
 			<a href="#" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $recipe_details->image; ?>" alt="" /></a>
+
+			<div class="row" style="margin-bottom: 10px">
+				<div class="col-md-12 w3-agile-blog-right">
+					<div class="clearfix w3-agile-blog-right-top">
+						<div class="blog-left-left hidden-xs-down">
+							<i class="fa fa-pencil" aria-hidden="true"></i>
+						</div>
+						<div class="blog-left-right-top">
+							<h4><?php echo $recipe_details->name; ?></h4>							
+							<p>Posted By <?php echo $recipe_details->user->first_name.' '.$recipe_details->user->last_name;?> &nbsp;&nbsp; on <?php echo date('M d, Y',strtotime($recipe_details->created));?> &nbsp;&nbsp; </p>
+							<p><?php echo $recipe_details->user->email;?></p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
 			<p>
 				<?php echo $recipe_details->about_us; ?> 
 			</p>

@@ -47,7 +47,7 @@ class BreakfastsController extends AppController
 	public function details($meta_name)
 	{
 		$breakfastsTable=TableRegistry::get('breakfasts');
-        $recipe_details=$breakfastsTable->find('all',['contain'=>['Ingredients']])->where(['breakfasts.metaname'=>$meta_name])->first();
+        $recipe_details=$breakfastsTable->find('all',['contain'=>['Ingredients','Users']])->where(['breakfasts.metaname'=>$meta_name])->first();
 
         $similiar_recipe=$breakfastsTable->find('all')->where(['id !='=>$recipe_details->id])->order('rand()')->limit(3)->toArray();
 

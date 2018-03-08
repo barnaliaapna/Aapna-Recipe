@@ -20,9 +20,9 @@
 		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		<script>
 		  (adsbygoogle = window.adsbygoogle || []).push({
-		    google_ad_client: "ca-pub-4667727216643481",
-		    enable_page_level_ads: true
-		  });
+    google_ad_client: "ca-pub-4709770716548116",
+    enable_page_level_ads: true
+  });
 		</script>
 		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a99640d6a7bfcf1"></script>
 	</head>
