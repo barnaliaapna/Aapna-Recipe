@@ -36,7 +36,12 @@ class RecipesController extends AppController
 
 	public function index()
 	{
-		
+		$this->viewBuilder()->setLayout('listing');
+		$recipesTable=TableRegistry::get('recipes');
+        $recipe_details=$recipesTable->find('all');
+
+        $recipe_details=$recipe_details->toArray();
+        $this->set(compact('recipe_details'));
 	}
 
 
@@ -51,6 +56,22 @@ class RecipesController extends AppController
         $food_blogs=$blogsTable->find('all')->order('rand()')->limit(5)->toArray();
 
         $this->set(compact('recipe_details','meta_name','similiar_recipe','food_blogs'));
+	}
+
+	public function bengali($type='')
+	{
+		$this->viewBuilder()->setLayout('listing');
+		$recipesTable=TableRegistry::get('recipes');
+        $recipe_details=$recipesTable->find('all');
+
+        if($type)
+        {
+        	$recipe_details=$recipe_details->where(['recipe_type'=>$type]);
+        }
+
+        $recipe_details=$recipe_details->limit(8)->toArray();
+
+        $this->set(compact('recipe_details','type'));
 	}
 
 }

@@ -5,14 +5,14 @@
 		<li>
 			<a href="<?php echo $this->Url->build('/');?>Recipes">Recipes</a>
 			<ul>
-				<li><a href="<?php echo $this->Url->build('/');?>Recipes">Bengali Recipes</a>
+				<li><a href="<?php echo $this->Url->build('/');?>Recipes/bengali">Bengali Recipes</a>
 					<ul>
-						<li><a href="<?php echo $this->Url->build('/');?>Recipes">Vegetarian</a></li>
-						<li><a href="<?php echo $this->Url->build('/');?>Recipes">Non Vegetarian</a></li>
+						<li><a href="<?php echo $this->Url->build('/');?>Recipes/bengali/veg">Vegetarian</a></li>
+						<li><a href="<?php echo $this->Url->build('/');?>Recipes/bengali/nonveg">Non Vegetarian</a></li>
 					</ul>
 				</li>
-				<li><a href="<?php echo $this->Url->build('/');?>Recipes">Chinese Recipes</a></li>
-				<li><a href="<?php echo $this->Url->build('/');?>Recipes">Italian Recipes</a></li>				
+				<!-- <li><a href="<?php echo $this->Url->build('/');?>Recipes">Chinese Recipes</a></li>
+				<li><a href="<?php echo $this->Url->build('/');?>Recipes">Italian Recipes</a></li> -->				
 			</ul>
 		</li>
 		<li><a href="<?php echo $this->Url->build('/');?>Blogs">Food Blogs</a></li>
