@@ -3,11 +3,13 @@
 		<div class="row">
 
 			<!-- Tweets -->
-				<section class="4u 12u(mobile)">
+				<section class="4u 12u(mobile)" style="height: 597px;overflow-y: hidden;">
 					<header>
 						<h2 class="icon fa-twitter circled"><span class="label">Tweets</span></h2>
 					</header>
-					<ul class="divided">
+					<div style="height: 580px;overflow-y:scroll">
+					<a class="twitter-timeline" href="https://twitter.com/Aapna_Recipe?ref_src=twsrc%5Etfw">Tweets by @Aapna_Recipe</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+					<!-- <ul class="divided">
 						<li>
 							<article class="tweet">
 								Amet nullam fringilla nibh nulla convallis tique ante sociis accumsan.
@@ -32,7 +34,8 @@
 								<span class="timestamp">5 hours ago</span>
 							</article>
 						</li>
-					</ul>
+					</ul> -->
+					</div>
 				</section>
 
 			<!-- Posts -->
@@ -62,22 +65,22 @@
 					</header>
 					<div class="row 25%">
 						<div class="6u">
-							<a href="#" class="image fit"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $all_galleries[0]['name']; ?>" alt="" /></a>
+							<a href="javascript:void(0)" class="image fit"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $all_galleries[0]['name']; ?>" alt="" /></a>
 						</div>
 						<div class="6u$">
-							<a href="#" class="image fit"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $all_galleries[1]['name']; ?>" alt="" /></a>
+							<a href="javascript:void(0)" class="image fit"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $all_galleries[1]['name']; ?>" alt="" /></a>
 						</div>
 						<div class="6u">
-							<a href="#" class="image fit"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $all_galleries[2]['name']; ?>" alt="" /></a>
+							<a href="javascript:void(0)" class="image fit"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $all_galleries[2]['name']; ?>" alt="" /></a>
 						</div>
 						<div class="6u$">
-							<a href="#" class="image fit"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $all_galleries[3]['name']; ?>" alt="" /></a>
+							<a href="javascript:void(0)" class="image fit"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $all_galleries[3]['name']; ?>" alt="" /></a>
 						</div>
 						<div class="6u">
-							<a href="#" class="image fit"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $all_galleries[4]['name']; ?>" alt="" /></a>
+							<a href="javascript:void(0)" class="image fit"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $all_galleries[4]['name']; ?>" alt="" /></a>
 						</div>
 						<div class="6u$">
-							<a href="#" class="image fit"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $all_galleries[5]['name']; ?>" alt="" /></a>
+							<a href="javascript:void(0)" class="image fit"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $all_galleries[5]['name']; ?>" alt="" /></a>
 						</div>
 						
 					</div>

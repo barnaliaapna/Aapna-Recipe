@@ -59,6 +59,15 @@
 					</div>
 				</div>
 			</div>
+			<div id="fb-root"></div>
+			  <!-- Your like button code -->
+
+			  <div class="fb-like" data-href="<?php echo $this->Url->build('/');?>Recipes/details/<?php echo $meta_name; ?>" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+			  <a class="twitter-follow-button"
+  href="https://twitter.com/Aapna_Recipe">
+Follow @Aapna_Recipe</a>
+
+
 			<p>
 				<?php echo $recipe_details->about_us; ?> 
 			</p>

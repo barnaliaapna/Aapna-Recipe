@@ -177,7 +177,7 @@ return [
      * 'YourTransport.php', where 'Your' is the name of the transport.
      */
     'EmailTransport' => [
-        'default' => [
+        /*'default' => [
             'className' => 'Smtp',
             // The following keys are used in SMTP transports
             'host' => 'mail.aapnarecipe.in',
@@ -187,19 +187,19 @@ return [
             'password' => 'B@rnu@123',
             'client' => null,
             'tls' => FALSE,
-        ],
+        ],*/
 
-        /*'default' => [
+        'default' => [
             'className' => 'Smtp',
             // The following keys are used in SMTP transports
             'host' => 'ssl://smtp.gmail.com',
             'port' => 465,
             'timeout' => 60,
-            'username' => 'barnalijobs@gmail.com',
+            'username' => 'aapnarecipe@gmail.com',
             'password' => 'amku3dXe',
-            'client' => null,
-            'tls' => FALSE,
-        ],*/
+            //'client' => null,
+            //'tls' => FALSE,
+        ],
     ],
 
     /**

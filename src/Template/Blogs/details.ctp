@@ -29,6 +29,11 @@
 				<h2><a href="<?php echo $this->Url->build('/');?>Blogs/details/<?php echo $short_content; ?>"><?php echo $blog_details->name; ?></a></h2>
 			</header>
 			<a href="#" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $blog_details->image; ?>" alt="" /></a>
+
+			<div id="fb-root"></div>
+			  <!-- Your like button code -->
+
+			  <div class="fb-like" data-href="<?php echo $this->Url->build('/');?>Blogs/details/<?php echo $short_content; ?>" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
 			
 			<?php echo $blog_details->content; ?> 		
 			

@@ -16,7 +16,10 @@
 		<link rel="stylesheet" href="<?php echo $this->Url->build('/');?>assets/css/owl.carousel.css" type="text/css" media="all">
 		<meta name="Description" content="We're completely in love with food. Aapna Recipe is our creative outlet and we love that it allows us to connect with you. (Your comments make us smile). We've always found a connection to each other through food and cooking and some of the best connections (and memories) with others have been through food. Aapnarecipe.in provides easy and delicious recipes that are sourced from experts, bloggers and home cooks. Happy Cooking!">
 		<meta name="Keywords" content="Food, Recipe, Desserts, Breakfasts, Blogs">
-		<script src="<?php echo $this->Url->build('/');?>assets/js/jquery.min.js"></script>
+
+		<!-- <script src="<?php echo $this->Url->build('/');?>assets/js/jquery.min.js"></script> -->
+
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
 
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<link rel="shortcut icon" type="image/x-icon" href="<?php echo $this->Url->build('/');?>favicon.ico">

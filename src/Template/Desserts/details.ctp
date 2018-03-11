@@ -59,6 +59,10 @@
 					</div>
 				</div>
 			</div>
+			<div id="fb-root"></div>
+			  <!-- Your like button code -->
+
+			  <div class="fb-like" data-href="<?php echo $this->Url->build('/');?>Recipes/details/<?php echo $meta_name; ?>" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
 			<p class="clearfix">
 				<?php echo $recipe_details->about_us; ?> 
 			</p>

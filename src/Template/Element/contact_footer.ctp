@@ -7,9 +7,9 @@
 	<ul class="icons">
 		<li><a target="_blank" href="https://twitter.com/Aapna_Recipe" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 		<li><a target="_blank" href="https://www.facebook.com/Aapna-Recipe-1986553591672003/?ref=bookmarks" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-		<li><a target="_blank" href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-		<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
-		<li><a href="#" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+		<li><a target="_blank" href="https://plus.google.com/collection/MF3eYE" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
+		<!-- <li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
+		<li><a href="#" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li> -->
 	</ul>
 </section>
 
