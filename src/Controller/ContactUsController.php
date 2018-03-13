@@ -55,13 +55,15 @@ class ContactUsController extends AppController
 		}
 	}
 
+	public function postrecipe()
+	{
+
+	}
+
 
 	public function mail_to_admin($from,$subject,$message){
-        //$this->autoRender = FALSE;
-        //$to = 'info@aapnarecipe.in';
         $to = 'aapnarecipe@gmail.com';
         $CakeEmail = new Email();
-
         $CakeEmail->from([$from => 'Aapna Recipe -- Contact Us'])
     		->to($to)
     		->subject($subject)

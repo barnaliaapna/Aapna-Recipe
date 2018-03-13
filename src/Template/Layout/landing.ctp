@@ -71,9 +71,9 @@
 					<div class="reel">
 						<?php foreach($top_breakfasts as $breakfast):?>
 						<article>
-							<a href="<?php echo $this->Url->build('/');?>Breakfasts/details/<?php echo $breakfast['metaname'];?>" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $breakfast['image'];?>" alt="" /></a>
+							<a href="<?php echo $this->Url->build('/');?>breakfast/<?php echo $breakfast['metaname'];?>" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $breakfast['image'];?>" alt="" /></a>
 							<header>
-								<h3><a href="<?php echo $this->Url->build('/');?>Breakfasts/details/<?php echo $breakfast['metaname'];?>"><?php echo $breakfast['name'];?></a></h3>
+								<h3><a href="<?php echo $this->Url->build('/');?>breakfast/<?php echo $breakfast['metaname'];?>"><?php echo $breakfast['name'];?></a></h3>
 							</header>
 						</article>
 						<?php endforeach;?>
@@ -97,7 +97,7 @@
 							There are many ways to make meals healthier. Limit fats, sugars and salt and include plenty of vegetables, fruit, grains, lean meats and low-fat dairy in your cooking. Foods with added fats, sugars or salt are less healthy than food in which these are found naturally.
 						</p>
 						<footer>
-							<a href="<?php echo $this->Url->build('/');?>AboutUs/eating_healthy_food" class="button">Continue Reading</a>
+							<a href="<?php echo $this->Url->build('/');?>eating-healthy-food" class="button">Continue Reading</a>
 						</footer>
 					</article>
 
@@ -114,9 +114,9 @@
 						<div class="row">
 							<?php foreach($handsoff_recipe as $handsoff):?>
 							<article class="4u 12u(mobile) special">
-								<a href="<?php echo $this->Url->build('/');?>Recipes/details/<?php echo $handsoff['metaname'];?>" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $handsoff['image'];?>" width="400px" height="300px" alt="" /></a>
+								<a href="<?php echo $this->Url->build('/');?>recipe/<?php echo $handsoff['metaname'];?>" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $handsoff['image'];?>" width="400px" height="300px" alt="" /></a>
 								<header>
-									<h3><a href="<?php echo $this->Url->build('/');?>Recipes/details/<?php echo $handsoff['metaname'];?>"><?php echo $handsoff['name'];?></a></h3>
+									<h3><a href="<?php echo $this->Url->build('/');?>recipe/<?php echo $handsoff['metaname'];?>"><?php echo $handsoff['name'];?></a></h3>
 								</header>
 								<p>
 									<?php echo $handsoff['about_us'];?>

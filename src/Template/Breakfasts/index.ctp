@@ -11,7 +11,7 @@
 				?>
 				<div class="col-sm-3 agileits_portfolio_grid">
 					<div class="agileinfo_portfolio_grid hovereffect">
-						<a class="cm-overlay" href="<?php echo $this->Url->build('/');?>Breakfasts/details/<?php echo $breakfast['metaname'];?>">
+						<a class="cm-overlay" href="<?php echo $this->Url->build('/');?>breakfast/<?php echo $breakfast['metaname'];?>">
 							<img src="<?php echo $this->Url->build('/');?>images/<?php echo $breakfast['image'];?>" alt=" " class="img-responsive">
 							<div class="overlay">
 								<h4><?php echo $breakfast['name'];?></h4>

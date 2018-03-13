@@ -57,7 +57,7 @@
 				</div>
 			</div>
 
-			<div class="dis-flex size1 p-b-47">
+			<!-- <div class="dis-flex size1 p-b-47">
 				<div class="txt1 p-r-25">
 					<span class="lnr lnr-phone-handset"></span>
 				</div>
@@ -71,7 +71,7 @@
 						+91 9038252365
 					</span>
 				</div>
-			</div>
+			</div> -->
 
 			<div class="dis-flex size1 p-b-47">
 				<div class="txt1 p-r-25">

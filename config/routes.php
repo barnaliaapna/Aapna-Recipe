@@ -51,6 +51,24 @@ Router::scope('/', function (RouteBuilder $routes) {
      */
     $routes->connect('/', ['controller' => 'Home', 'action' => 'index']);
 
+    $routes->connect('/:slug', ['controller' => 'Blogs', 'action' => 'details'], ['pass' => ['slug']]);
+
+    $routes->connect('/desert/:slug', ['controller' => 'Desserts', 'action' => 'details'], ['pass' => ['slug']]);
+    $routes->connect('/recipe/:slug', ['controller' => 'Recipes', 'action' => 'details'], ['pass' => ['slug']]);
+    $routes->connect('/bengali/:slug', ['controller' => 'Recipes', 'action' => 'bengali'], ['pass' => ['slug']]);
+    $routes->connect('/breakfast/:slug', ['controller' => 'Breakfasts', 'action' => 'details'], ['pass' => ['slug']]);
+
+    $routes->connect('/Breakfasts/', ['controller' => 'Breakfasts', 'action' => 'index']);
+    $routes->connect('/Blogs/', ['controller' => 'Blogs', 'action' => 'index']);
+    $routes->connect('/Recipes/', ['controller' => 'Recipes', 'action' => 'index']);
+    $routes->connect('/Desserts/', ['controller' => 'Desserts', 'action' => 'index']);
+    $routes->connect('/AboutUs/', ['controller' => 'AboutUs', 'action' => 'index']);
+    $routes->connect('/breakfast-is-important-to-us/', ['controller' => 'AboutUs', 'action' => 'breakfast_is_important_to_us']);
+    $routes->connect('/eating-healthy-food/', ['controller' => 'AboutUs', 'action' => 'eating_healthy_food']);
+    $routes->connect('/ContactUs/', ['controller' => 'ContactUs', 'action' => 'index']);
+    $routes->connect('/bengali/', ['controller' => 'Recipes', 'action' => 'bengali']);
+
+
     /**
      * ...and connect the rest of 'Pages' controller's URLs.
      */

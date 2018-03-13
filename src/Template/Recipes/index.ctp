@@ -15,7 +15,7 @@
 				?>
 				<div class="col-sm-3 agileits_portfolio_grid">
 					<div class="agileinfo_portfolio_grid hovereffect">
-						<a class="cm-overlay" href="<?php echo $this->Url->build('/');?>Recipes/details/<?php echo $recipe['metaname'];?>">
+						<a class="cm-overlay" href="<?php echo $this->Url->build('/');?>recipe/<?php echo $recipe['metaname'];?>">
 							<img src="<?php echo $this->Url->build('/');?>images/<?php echo $recipe['image'];?>" alt="<?php echo $recipe['image'];?>" width="300px" height="200px" >
 							<div class="overlay">
 								<h4><?php echo $recipe['name'];?></h4>

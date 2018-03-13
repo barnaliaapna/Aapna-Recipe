@@ -13,10 +13,10 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo $this->Url->build('/');?>vendor/select2/select2.min.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo $this->Url->build('/');?>vendor/daterangepicker/daterangepicker.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo $this->Url->build('/');?>css/util.css">
+	<link href="<?php echo $this->Url->build('/');?>assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 	<link rel="stylesheet" type="text/css" href="<?php echo $this->Url->build('/');?>css/main.css">
 	<link rel="stylesheet" href="<?php echo $this->Url->build('/');?>assets/css/main.css" />
 	<link rel="stylesheet" href="<?php echo $this->Url->build('/');?>assets/css/style.css" />
-	<link href="<?php echo $this->Url->build('/');?>assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 	<meta name="Description" content="We're completely in love with food. Aapna Recipe is our creative outlet and we love that it allows us to connect with you. (Your comments make us smile). We've always found a connection to each other through food and cooking and some of the best connections (and memories) with others have been through food. Aapnarecipe.in provides easy and delicious recipes that are sourced from experts, bloggers and home cooks. Happy Cooking!">
 		<meta name="Keywords" content="Food, Recipe, Desserts, Breakfasts, Blogs">
 	<link rel="shortcut icon" type="image/x-icon" href="<?php echo $this->Url->build('/');?>favicon.ico">	

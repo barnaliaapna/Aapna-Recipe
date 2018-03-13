@@ -36,9 +36,9 @@ class BlogsController extends AppController
 
 	public function index()
 	{
-		$this->viewBuilder()->setLayout('listing');
+		$this->viewBuilder()->setLayout('blogs');
 		$blogsTable=TableRegistry::get('blogs');
-        $blog_details=$blogsTable->find('all')->order(['id'=>'DESC'])->limit(8)->toArray();
+        $blog_details=$blogsTable->find('all')->order(['id'=>'DESC'])->limit(10)->toArray();
         $this->set(compact('blog_details'));
 	}
 

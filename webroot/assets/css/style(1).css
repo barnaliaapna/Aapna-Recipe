@@ -337,6 +337,23 @@ ul.nav.navbar-nav {
     transform: translate3d(0,-100%,0);
 }
 
+.hovereffect h5 {
+    /*text-transform: uppercase;*/
+    text-align: center;
+    position: relative;
+    font-size: 0.7em;
+    /*font-weight: 600;*/
+    background-color: transparent;
+    color: #ffffff;
+    padding: 1em 0 0 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(0,-100%,0);
+    transform: translate3d(0,-100%,0);
+}
+
 .hovereffect p{
 	color: #FFF;
     line-height: 1.8em;

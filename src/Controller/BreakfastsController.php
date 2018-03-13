@@ -19,6 +19,7 @@ use Cake\Network\Exception\ForbiddenException;
 use Cake\Network\Exception\NotFoundException;
 use Cake\View\Exception\MissingTemplateException;
 use Cake\ORM\TableRegistry;
+use Cake\Routing\Router;
 
 /**
  * Static content controller
@@ -48,6 +49,13 @@ class BreakfastsController extends AppController
 	{
 		$breakfastsTable=TableRegistry::get('breakfasts');
         $recipe_details=$breakfastsTable->find('all',['contain'=>['Ingredients','Users']])->where(['breakfasts.metaname'=>$meta_name])->first();
+
+        $url=Router::url('/',true).'Breakfasts/details/'.$meta_name;
+        $imageurl=Router::url('/',true).'images/'.$recipe_details->image;
+
+        $this->set('url', $url);
+        $this->set('description', $recipe_details->about_us);
+        $this->set('image', $imageurl);
 
         $similiar_recipe=$breakfastsTable->find('all')->where(['id !='=>$recipe_details->id])->order('rand()')->limit(3)->toArray();
 

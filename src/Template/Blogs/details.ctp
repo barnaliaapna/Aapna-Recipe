@@ -11,7 +11,7 @@
 			<?php foreach($food_blogs as $blogs):?>
 			<div class="row 50%">
 				<div class="4u">
-					<a href="<?php echo $this->Url->build('/');?>Blogs/details/<?php echo $blogs['short_content'];?>" class="image fit"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $blogs['image'];?>" alt="" /></a>
+					<a href="<?php echo $this->Url->build('/');?><?php echo $blogs['short_content'];?>" class="image fit"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $blogs['image'];?>" alt="" /></a>
 				</div>
 				<div class="8u">
 					<h4><?php echo $blogs['name'];?></h4>
@@ -26,7 +26,7 @@
 	<div class="8u 12u(mobile) important(mobile)" id="content">
 		<article id="main">
 			<header>
-				<h2><a href="<?php echo $this->Url->build('/');?>Blogs/details/<?php echo $short_content; ?>"><?php echo $blog_details->name; ?></a></h2>
+				<h2><a href="<?php echo $this->Url->build('/');?><?php echo $short_content; ?>"><?php echo $blog_details->name; ?></a></h2>
 			</header>
 			<a href="#" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $blog_details->image; ?>" alt="" /></a>
 
@@ -34,8 +34,11 @@
 			  <!-- Your like button code -->
 
 			  <div class="fb-like" data-href="<?php echo $this->Url->build('/');?>Blogs/details/<?php echo $short_content; ?>" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+			  <!-- <a class="twitter-follow-button" href="https://twitter.com/Aapna_Recipe">Follow @Aapna_Recipe</a> -->
 			
-			<?php echo $blog_details->content; ?> 		
+			<?php echo $blog_details->content; ?> 
+
+			<div class="fb-comments" data-numposts="5"></div>		
 			
 		</article>
 	</div>

@@ -1,44 +1,9 @@
 <div class="row 200%">
-	<div class="4u 12u(mobile)" id="sidebar">
-		<hr class="first" />
-		<section>
-			<header>
-				<h3><a href="<?php echo $this->Url->build('/');?>AboutUs/breakfast_is_important_to_us">Breakfast Is Important To Us</a></h3>
-			</header>
-			<p>
-				Breakfast is the most satiating meal of the day. This satiating-effect can impact food consumption for the entire day. Investigators have found that the pattern of food intake has a dramatic effect on overall daily food consumption. 
-			</p>
-			<footer>
-				<a href="<?php echo $this->Url->build('/');?>AboutUs/breakfast_is_important_to_us" class="button">Learn More</a>
-			</footer>
-		</section>
-		<hr />
-		<section>
-			<header>
-				<h3><a href="#">Food blogs</a></h3>
-			</header>
-			<p>
-				Tips about your health, food and their benifits.
-			</p>
-			<?php foreach($food_blogs as $blogs):?>
-			<div class="row 50%">
-				<div class="4u">
-					<a href="<?php echo $this->Url->build('/');?>Blogs/details/<?php echo $blogs['short_content'];?>" class="image fit"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $blogs['image'];?>" alt="" /></a>
-				</div>
-				<div class="8u">
-					<h4><?php echo $blogs['name'];?></h4>
-				</div>
-			</div>
-		    <?php endforeach;?>
-			<footer>
-				<a href="#" class="button">See More</a>
-			</footer>
-		</section>
-	</div>
+	<?php echo $this->element('leftsidebar');?>
 	<div class="8u 12u(mobile) important(mobile)" id="content">
 		<article id="main">
 			<header>
-				<h2><a href="<?php echo $this->Url->build('/');?>Recipes/details/<?php echo $meta_name; ?>"><?php echo $recipe_details->name; ?></a></h2>
+				<h2><a href="<?php echo $this->Url->build('/');?>desert/<?php echo $meta_name; ?>"><?php echo $recipe_details->name; ?></a></h2>
 				<!-- <p>
 					<img src="<?php echo $this->Url->build('/');?>images/<?php echo $recipe_details->image; ?>" alt="" width="400px" height="300px"/>
 				</p>  -->
@@ -50,7 +15,7 @@
 						<div class="blog-left-left hidden-xs-down">
 							<i class="fa fa-pencil" aria-hidden="true"></i>
 						</div>
-						<div class="blog-left-right-top">
+						<div class="blog-left-right-top" style="display: inline-block;width: 70%">
 							<h4><?php echo $recipe_details->name; ?></h4>							
 							<p>Posted By <?php echo $recipe_details->user->first_name.' '.$recipe_details->user->last_name;?> &nbsp;&nbsp; on <?php echo date('M d, Y',strtotime($recipe_details->created));?> &nbsp;&nbsp; </p>
 							<p><?php echo $recipe_details->user->email;?></p>
@@ -62,7 +27,8 @@
 			<div id="fb-root"></div>
 			  <!-- Your like button code -->
 
-			  <div class="fb-like" data-href="<?php echo $this->Url->build('/');?>Recipes/details/<?php echo $meta_name; ?>" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+			  <div class="fb-like" data-href="<?php echo $this->Url->build('/');?>desert/<?php echo $meta_name; ?>" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+			  <!-- <a class="twitter-follow-button" href="https://twitter.com/Aapna_Recipe">Follow @Aapna_Recipe</a> -->
 			<p class="clearfix">
 				<?php echo $recipe_details->about_us; ?> 
 			</p>
@@ -86,6 +52,7 @@
 					<?php echo $recipe_details->description; ?> 
 				</p>
 			</section>
+			<div class="fb-comments" data-numposts="2"></div>
 		</article>
 	</div>
 </div>
@@ -93,9 +60,9 @@
 <div class="row">
 	<?php foreach($similiar_recipe as $similar):?>
 	<article class="4u 12u(mobile) special">
-		<a href="<?php echo $this->Url->build('/');?>Breakfasts/details/<?php echo $similar['metaname'];?>" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $similar['image'];?>" alt="" width="400px" height="300px" /></a>
+		<a href="<?php echo $this->Url->build('/');?>desert/<?php echo $similar['metaname'];?>" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $similar['image'];?>" alt="" width="400px" height="300px" /></a>
 		<header>
-			<h3><a href="<?php echo $this->Url->build('/');?>Breakfasts/details/<?php echo $similar['metaname'];?>"><?php echo $similar['name'];?></a></h3>
+			<h3><a href="<?php echo $this->Url->build('/');?>desert/<?php echo $similar['metaname'];?>"><?php echo $similar['name'];?></a></h3>
 		</header>
 		<p>
 			<?php echo $similar['about_us'];?>
