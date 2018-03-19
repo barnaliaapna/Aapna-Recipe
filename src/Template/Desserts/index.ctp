@@ -2,7 +2,7 @@
 	<div class="portfolio1" id="gallery">
 		<div class="container">
 			<header>
-				<h2 style="font-size: 2.85em" class="text-center"><a href="<?php echo $this->Url->build('/');?>Desserts">Baking & Deserts</a></h2>
+				<h2 style="font-size: 2.85em" class="text-center"><a href="<?php echo $this->Url->build('/');?>Desserts">Baking & Desserts</a></h2>
 			</header>
 			<div class="agileits_portfolio_grids">
 				<div class="row clearfix">
@@ -12,7 +12,7 @@
 				<div class="col-sm-3 agileits_portfolio_grid">
 					<div class="agileinfo_portfolio_grid hovereffect">
 						<a class="cm-overlay" href="<?php echo $this->Url->build('/');?>desert/<?php echo $dessert['metaname'];?>">
-							<img src="<?php echo $this->Url->build('/');?>images/<?php echo $dessert['image'];?>" alt=" " width="300px" height="200px">
+							<img src="<?php echo $this->Url->build('/');?>images/<?php echo $dessert['image'];?>" alt="<?php echo $dessert['image'];?>" width="300px" height="200px">
 							<div class="overlay">
 								<h4><?php echo $dessert['name'];?></h4>
 								<!-- <h5>Posted By <?php echo $dessert->user->first_name.' '.$dessert->user->last_name;?> &nbsp;&nbsp;</h5> -->
@@ -20,6 +20,7 @@
 							</div>
 						</a>
 					</div>
+					<h4 class="visible-xs visible-sm text-center"><?php echo $dessert['name'];?></h4>
 				</div>
 				<?php if($index % 4 == 0):?>
 					<!-- <div class="clearfix"> </div> -->

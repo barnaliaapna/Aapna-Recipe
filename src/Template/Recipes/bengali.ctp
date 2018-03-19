@@ -28,6 +28,7 @@
 							</div>
 						</a>
 					</div>
+					<h4 class="visible-xs visible-sm text-center"><?php echo $recipe['name'];?></h4>
 				</div>
 				<?php if($index % 4 == 0):?>
 					<!-- <div class="clearfix"> </div> -->

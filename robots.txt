@@ -1,5 +1,7 @@
 User-agent: *
-Disallow: 
+Disallow: /
 Disallow: /cgi-bin/
 Disallow: /src
 Disallow: /webroot
+
+Sitemap: http://aapnarecipe.in/sitemap.xml

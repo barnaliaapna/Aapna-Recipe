@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Aapna Recipe</title>
+		<title>Aapna Recipe - An easy and quick recipe book.</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -61,7 +61,7 @@
 					<header>
 						<h2>Hi. You're looking at <strong>Aapna Recipe</strong>.</h2>
 						<p>
-							A healthy breakfast is an important part of a balanced diet, and provides some of the vitamins and minerals we need for good health.
+							A healthy <a href="<?php echo $this->Url->build('/');?>Breakfasts">breakfast</a> is an important part of a balanced diet, and provides some of the vitamins and minerals we need for <a href="<?php echo $this->Url->build('/');?>eating-healthy-food">good health</a>.
 						</p>
 					</header>
 				</section>
@@ -71,7 +71,7 @@
 					<div class="reel">
 						<?php foreach($top_breakfasts as $breakfast):?>
 						<article>
-							<a href="<?php echo $this->Url->build('/');?>breakfast/<?php echo $breakfast['metaname'];?>" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $breakfast['image'];?>" alt="" /></a>
+							<a href="<?php echo $this->Url->build('/');?>breakfast/<?php echo $breakfast['metaname'];?>" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $breakfast['image'];?>" alt="<?php echo $breakfast['image'];?>" /></a>
 							<header>
 								<h3><a href="<?php echo $this->Url->build('/');?>breakfast/<?php echo $breakfast['metaname'];?>"><?php echo $breakfast['name'];?></a></h3>
 							</header>
@@ -84,7 +84,7 @@
 				<div class="wrapper style2">
 
 					<article id="main" class="container special">
-						<a href="#" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/pic06.jpg" alt="" /></a>
+						<a href="#" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/pic06.jpg" alt="pic06.jpg" /></a>
 						<header>
 							<h2><a href="<?php echo $this->Url->build('/');?>AboutUs">We are a company of cooks.</a></h2>
 							<p>
@@ -114,7 +114,7 @@
 						<div class="row">
 							<?php foreach($handsoff_recipe as $handsoff):?>
 							<article class="4u 12u(mobile) special">
-								<a href="<?php echo $this->Url->build('/');?>recipe/<?php echo $handsoff['metaname'];?>" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $handsoff['image'];?>" width="400px" height="300px" alt="" /></a>
+								<a href="<?php echo $this->Url->build('/');?>recipe/<?php echo $handsoff['metaname'];?>" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $handsoff['image'];?>" width="400px" height="300px" alt="<?php echo $handsoff['image'];?>" /></a>
 								<header>
 									<h3><a href="<?php echo $this->Url->build('/');?>recipe/<?php echo $handsoff['metaname'];?>"><?php echo $handsoff['name'];?></a></h3>
 								</header>

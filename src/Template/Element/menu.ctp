@@ -16,7 +16,7 @@
 			</ul>
 		</li>
 		<li><a href="<?php echo $this->Url->build('/');?>Blogs">Food Blogs</a></li>
-		<li><a href="<?php echo $this->Url->build('/');?>Desserts">Baking & Deserts</a></li>
+		<li><a href="<?php echo $this->Url->build('/');?>Desserts">Baking & Desserts</a></li>
 		<li><a href="<?php echo $this->Url->build('/');?>AboutUs">About Us</a></li>
 		<li>
 			<a href="<?php echo $this->Url->build('/');?>ContactUs">Contact Us</a>

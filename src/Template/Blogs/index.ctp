@@ -8,7 +8,7 @@
 				<?php foreach($blog_details as $blogs):?>
 				<div class="w3-agile-blog-grid" style="margin-bottom: 25px">
 					<div class="col-md-5 w3-agile-blog-left">
-						<a href="<?php echo $this->Url->build('/');?><?php echo $blogs['short_content'];?>" data-toggle="modal" data-target="#myModal"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $blogs['image'];?>" alt=""></a>
+						<a href="<?php echo $this->Url->build('/');?><?php echo $blogs['short_content'];?>" data-toggle="modal" data-target="#myModal"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $blogs['image'];?>" alt="<?php echo $blogs['image'];?>"></a>
 					</div>
 					<div class="col-md-6 w3-agile-blog-right">
 						<div class="w3-agile-blog-right-top">
@@ -29,7 +29,7 @@
 					</div>
 					<div class="clearfix"> </div>
 				</div>
-				<?php endforeach;?>
+				<?php endforeach;?>				
 			</div>
 		</div>
 	</div>

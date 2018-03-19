@@ -8,7 +8,7 @@
 					<img src="<?php echo $this->Url->build('/');?>images/<?php echo $recipe_details->image; ?>" alt="" width="400px" height="300px"/>
 				</p>  -->
 			</header>
-			<a href="#" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $recipe_details->image; ?>" alt="" /></a>
+			<a href="#" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $recipe_details->image; ?>" alt="<?php echo $recipe_details->image; ?>" /></a>
 			<div class="row" style="margin-bottom: 10px">
 				<div class="col-md-12 w3-agile-blog-right">
 					<div class="clearfix w3-agile-blog-right-top">
@@ -60,7 +60,7 @@
 <div class="row">
 	<?php foreach($similiar_recipe as $similar):?>
 	<article class="4u 12u(mobile) special">
-		<a href="<?php echo $this->Url->build('/');?>desert/<?php echo $similar['metaname'];?>" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $similar['image'];?>" alt="" width="400px" height="300px" /></a>
+		<a href="<?php echo $this->Url->build('/');?>desert/<?php echo $similar['metaname'];?>" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $similar['image'];?>" alt="<?php echo $similar['image'];?>" width="400px" height="300px" /></a>
 		<header>
 			<h3><a href="<?php echo $this->Url->build('/');?>desert/<?php echo $similar['metaname'];?>"><?php echo $similar['name'];?></a></h3>
 		</header>

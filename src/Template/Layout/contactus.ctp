@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Aapna Recipe</title>
+	<title>Aapna Recipe - An easy and quick recipe book.</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="<?php echo $this->Url->build('/');?>vendor/bootstrap/css/bootstrap.min.css">

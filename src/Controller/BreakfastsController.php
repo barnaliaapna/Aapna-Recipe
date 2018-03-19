@@ -39,7 +39,7 @@ class BreakfastsController extends AppController
 	{
 		$this->viewBuilder()->setLayout('listing');
 		$breakfastsTable=TableRegistry::get('breakfasts');
-        $recipe_details=$breakfastsTable->find('all')->limit(8)->toArray();
+        $recipe_details=$breakfastsTable->find('all')->order('rand()')->limit(12)->toArray();
 
         $this->set(compact('recipe_details'));
 	}

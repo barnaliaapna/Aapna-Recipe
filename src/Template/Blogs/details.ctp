@@ -11,7 +11,7 @@
 			<?php foreach($food_blogs as $blogs):?>
 			<div class="row 50%">
 				<div class="4u">
-					<a href="<?php echo $this->Url->build('/');?><?php echo $blogs['short_content'];?>" class="image fit"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $blogs['image'];?>" alt="" /></a>
+					<a href="<?php echo $this->Url->build('/');?><?php echo $blogs['short_content'];?>" class="image fit"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $blogs['image'];?>" alt="<?php echo $blogs['image'];?>" /></a>
 				</div>
 				<div class="8u">
 					<h4><?php echo $blogs['name'];?></h4>
@@ -28,7 +28,7 @@
 			<header>
 				<h2><a href="<?php echo $this->Url->build('/');?><?php echo $short_content; ?>"><?php echo $blog_details->name; ?></a></h2>
 			</header>
-			<a href="#" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $blog_details->image; ?>" alt="" /></a>
+			<a href="#" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $blog_details->image; ?>" alt="<?php echo $blog_details->image; ?>" /></a>
 
 			<div id="fb-root"></div>
 			  <!-- Your like button code -->

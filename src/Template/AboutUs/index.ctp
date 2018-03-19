@@ -3,6 +3,15 @@
 		<h2><a href="<?php echo $this->Url->build('/');?>AboutUs">About Us</a></h2>
 		<p>We are a company of cooks.</p>
 	</header>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- Details page 2 -->
+			<ins class="adsbygoogle"
+			     style="display:inline-block;width:728px;height:90px"
+			     data-ad-client="ca-pub-4709770716548116"
+			     data-ad-slot="1508045411"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
 	<p>
 		We're completely in love with food. Aapna Recipe is our creative outlet and we love that it allows us to connect with you. (Your comments make us smile). We've always found a connection to each other through food and cooking and some of the best connections (and memories) with others have been through food. Aapnarecipe.in provides easy and delicious recipes that are sourced from experts, bloggers and home cooks. Happy Cooking!
 	</p>

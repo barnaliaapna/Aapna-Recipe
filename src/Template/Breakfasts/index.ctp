@@ -12,15 +12,16 @@
 				<div class="col-sm-3 agileits_portfolio_grid">
 					<div class="agileinfo_portfolio_grid hovereffect">
 						<a class="cm-overlay" href="<?php echo $this->Url->build('/');?>breakfast/<?php echo $breakfast['metaname'];?>">
-							<img src="<?php echo $this->Url->build('/');?>images/<?php echo $breakfast['image'];?>" alt=" " class="img-responsive">
+							<img src="<?php echo $this->Url->build('/');?>images/<?php echo $breakfast['image'];?>" alt="<?php echo $breakfast['image'];?> " width="300px" height="200px">
 							<div class="overlay">
 								<h4><?php echo $breakfast['name'];?></h4>
 							</div>
 						</a>
 					</div>
+					<h4 class="visible-xs visible-sm text-center"><?php echo $breakfast['name'];?></h4>
 				</div>
 				<?php if($index % 4 == 0):?>
-					<div class="clearfix"> </div>
+					<!-- <div class="clearfix"> </div> -->
 				<?php endif;?>
 				<?php endforeach;?>
 				</div>			

@@ -65,22 +65,22 @@
 					</header>
 					<div class="row 25%">
 						<div class="6u">
-							<a href="javascript:void(0)" class="image fit"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $all_galleries[0]['name']; ?>" alt="" /></a>
+							<a href="javascript:void(0)" class="image fit"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $all_galleries[0]['name']; ?>" alt="<?php echo $all_galleries[0]['name']; ?>" /></a>
 						</div>
 						<div class="6u$">
-							<a href="javascript:void(0)" class="image fit"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $all_galleries[1]['name']; ?>" alt="" /></a>
+							<a href="javascript:void(0)" class="image fit"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $all_galleries[1]['name']; ?>" alt="<?php echo $all_galleries[1]['name']; ?>" /></a>
 						</div>
 						<div class="6u">
-							<a href="javascript:void(0)" class="image fit"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $all_galleries[2]['name']; ?>" alt="" /></a>
+							<a href="javascript:void(0)" class="image fit"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $all_galleries[2]['name']; ?>" alt="<?php echo $all_galleries[2]['name']; ?>" /></a>
 						</div>
 						<div class="6u$">
-							<a href="javascript:void(0)" class="image fit"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $all_galleries[3]['name']; ?>" alt="" /></a>
+							<a href="javascript:void(0)" class="image fit"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $all_galleries[3]['name']; ?>" alt="<?php echo $all_galleries[3]['name']; ?>" /></a>
 						</div>
 						<div class="6u">
-							<a href="javascript:void(0)" class="image fit"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $all_galleries[4]['name']; ?>" alt="" /></a>
+							<a href="javascript:void(0)" class="image fit"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $all_galleries[4]['name']; ?>" alt="<?php echo $all_galleries[4]['name']; ?>" /></a>
 						</div>
 						<div class="6u$">
-							<a href="javascript:void(0)" class="image fit"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $all_galleries[5]['name']; ?>" alt="" /></a>
+							<a href="javascript:void(0)" class="image fit"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $all_galleries[5]['name']; ?>" alt="<?php echo $all_galleries[5]['name']; ?>" /></a>
 						</div>
 						
 					</div>

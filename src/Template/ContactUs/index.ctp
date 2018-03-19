@@ -55,6 +55,12 @@
 						Aapna Recipe, Kolkata, West Bengal, India
 					</span>
 				</div>
+				<!-- <div itemscope itemtype="http://schema.org/Person">
+				   <span itemprop="name">Joe Doe</span>
+				   <span itemprop="company">The Example Company</span>
+				   <span itemprop="tel">604-555-1234</span>
+				   <a itemprop="email" href="mailto:joe.doe@example.com">joe.doe@example.com</a>
+				</div> -->
 			</div>
 
 			<!-- <div class="dis-flex size1 p-b-47">

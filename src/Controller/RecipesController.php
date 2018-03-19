@@ -69,7 +69,7 @@ class RecipesController extends AppController
         	$recipe_details=$recipe_details->where(['recipe_type'=>$type]);
         }
 
-        $recipe_details=$recipe_details->limit(8)->toArray();
+        $recipe_details=$recipe_details->toArray();
 
         $this->set(compact('recipe_details','type'));
 	}
