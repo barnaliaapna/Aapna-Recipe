@@ -23,14 +23,14 @@
 
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<link rel="shortcut icon" type="image/x-icon" href="<?php echo $this->Url->build('/');?>favicon.ico">
-		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<!-- <script async="async" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		<script>
 		  (adsbygoogle = window.adsbygoogle || []).push({
 		    google_ad_client: "ca-pub-4709770716548116",
 		    enable_page_level_ads: true
 		  });
 		</script>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
+		Global site tag (gtag.js) - Google Analytics
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115413434-1"></script>
 		<script>
 		  window.dataLayer = window.dataLayer || [];
@@ -38,7 +38,7 @@
 		  gtag('js', new Date());
 
 		  gtag('config', 'UA-115413434-1');
-		</script>
+		</script> -->
 
 		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a99640d6a7bfcf1"></script>
 	</head>
@@ -59,13 +59,34 @@
 						<?php echo $this->element('menu');?>
 
 				</div>
-
-			<!-- Main -->
+				<!-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				
+				<ins class="adsbygoogle"
+				     style="display:block"
+				     data-ad-client="ca-pub-4709770716548116"
+				     data-ad-slot="7494178302"
+				     data-ad-format="link"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script> -->
+				<!-- Main -->
 				<div class="wrapper style1">
 					<div class="container">
 						<?php echo $this->fetch('content'); ?>	
 					</div>
 				</div>
+				<?php if($_SERVER['HTTP_HOST'] != 'localhost'):?>
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- responsive 2 -->
+				<ins class="adsbygoogle"
+				     style="display:block"
+				     data-ad-client="ca-pub-4709770716548116"
+				     data-ad-slot="1380922447"
+				     data-ad-format="auto"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+				<?php endif;?>
 
 			<!-- Footer -->
 				<?php echo $this->element('semi_footer');?>

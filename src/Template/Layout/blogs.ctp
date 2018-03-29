@@ -24,14 +24,14 @@
 
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<link rel="shortcut icon" type="image/x-icon" href="<?php echo $this->Url->build('/');?>favicon.ico">
-		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<!-- <script async="async" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		<script>
 		  (adsbygoogle = window.adsbygoogle || []).push({
 		    google_ad_client: "ca-pub-4709770716548116",
 		    enable_page_level_ads: true
 		  });
 		</script>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
+		Global site tag (gtag.js) - Google Analytics
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115413434-1"></script>
 		<script>
 		  window.dataLayer = window.dataLayer || [];
@@ -39,7 +39,7 @@
 		  gtag('js', new Date());
 
 		  gtag('config', 'UA-115413434-1');
-		</script>
+		</script> -->
 
 		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a99640d6a7bfcf1"></script>
 	</head>

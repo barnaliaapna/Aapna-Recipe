@@ -50,4 +50,12 @@ class AboutUsController extends AppController
 
 	}
 
+	public function makingPizzaDough()
+	{
+		$blogsTable=TableRegistry::get('blogs');
+        $food_blogs=$blogsTable->find('all')->order('rand()')->limit(5)->toArray();
+
+        $this->set(compact('food_blogs'));
+	}
+
 }

@@ -5,8 +5,20 @@
 				<h2 style="font-size: 2.85em" class="text-center"><a href="<?php echo $this->Url->build('/');?>Blogs">Food Blogs</a></h2>
 			</header>
 			<div class="w3-agile-blog-grids">
-				<?php foreach($blog_details as $blogs):?>
-				<div class="w3-agile-blog-grid" style="margin-bottom: 25px">
+				<?php foreach($blog_details as $key=>$blogs):?>
+					<?php if($key == 2 || $key == 5  || $key == 7 ):?>
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<ins class="adsbygoogle"
+						     style="display:block"
+						     data-ad-format="fluid"
+						     data-ad-layout-key="-do-1m+ad+8v-15t"
+						     data-ad-client="ca-pub-4709770716548116"
+						     data-ad-slot="6243524430"></ins>
+						<script>
+						     (adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					<?php endif;?>
+				<div class="w3-agile-blog-grid" style="margin-bottom: 25px;margin-top: 25px">
 					<div class="col-md-5 w3-agile-blog-left">
 						<a href="<?php echo $this->Url->build('/');?><?php echo $blogs['short_content'];?>" data-toggle="modal" data-target="#myModal"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $blogs['image'];?>" alt="<?php echo $blogs['image'];?>"></a>
 					</div>
@@ -29,7 +41,17 @@
 					</div>
 					<div class="clearfix"> </div>
 				</div>
-				<?php endforeach;?>				
+				<?php endforeach;?>	
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<ins class="adsbygoogle"
+				     style="display:block"
+				     data-ad-format="fluid"
+				     data-ad-layout-key="-do-1m+ad+8v-15t"
+				     data-ad-client="ca-pub-4709770716548116"
+				     data-ad-slot="6489978584"></ins>
+				<script>
+				     (adsbygoogle = window.adsbygoogle || []).push({});
+				</script>			
 			</div>
 		</div>
 	</div>

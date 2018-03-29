@@ -1,67 +1,412 @@
 <?xml version="1.0" encoding="UTF-8"?>
-                 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-                 <url><loc>http://aapnarecipe.in/</loc></url>
-<url><loc>http://aapnarecipe.in/blogs/details/benifits-of-eating-banana-everyday</loc></url>
-<url><loc>http://aapnarecipe.in/blogs/details/benifits-of-eating-carrots</loc></url>
-<url><loc>http://aapnarecipe.in/blogs/details/benifits-of-eating-lentils</loc></url>
-<url><loc>http://aapnarecipe.in/blogs/details/an-apple-a-day</loc></url>
-<url><loc>http://aapnarecipe.in/recipe/stuffed-baingan-curry</loc></url>
-<url><loc>http://aapnarecipe.in/recipe/chicken-chaap</loc></url>
-<url><loc>http://aapnarecipe.in/recipe/tandoori-chicken</loc></url>
-<url><loc>http://aapnarecipe.in/eating-healthy-food</loc></url>
-<url><loc>http://aapnarecipe.in/aboutus</loc></url>
-<url><loc>http://aapnarecipe.in/breakfast/chicken-momos</loc></url>
-<url><loc>http://aapnarecipe.in/breakfast/bread-upma</loc></url>
-<url><loc>http://aapnarecipe.in/breakfast/rava-utthapam</loc></url>
-<url><loc>http://aapnarecipe.in/breakfast/chirer-poha</loc></url>
-<url><loc>http://aapnarecipe.in/breakfast/aloo-paratha</loc></url>
-<url><loc>http://aapnarecipe.in/breakfast/egg-cheese-sandwich</loc></url>
-<url><loc>http://aapnarecipe.in/breakfast/instant-dhokla</loc></url>
-<url><loc>http://aapnarecipe.in/breakfast/rava-upma</loc></url>
-<url><loc>http://aapnarecipe.in/breakfast/soft-pancakes</loc></url>
-<url><loc>http://aapnarecipe.in/breakfast/french-toast</loc></url>
-<url><loc>http://aapnarecipe.in/breakfasts</loc></url>
-<url><loc>http://aapnarecipe.in/contactus</loc></url>
-<url><loc>http://aapnarecipe.in/desserts</loc></url>
-<url><loc>http://aapnarecipe.in/blogs</loc></url>
-<url><loc>http://aapnarecipe.in/recipes</loc></url>
-<url><loc>http://aapnarecipe.in/bengali</loc></url>
-<url><loc>http://aapnarecipe.in/bengali/nonveg</loc></url>
-<url><loc>http://aapnarecipe.in/bengali/veg</loc></url>
-<url><loc>http://aapnarecipe.in/an-apple-a-day</loc></url>
-<url><loc>http://aapnarecipe.in/benifits-of-pudina</loc></url>
-<url><loc>http://aapnarecipe.in/salt-causes-hypertension</loc></url>
-<url><loc>http://aapnarecipe.in/benifits-of-eating-lentils</loc></url>
-<url><loc>http://aapnarecipe.in/best-high-fiber-foods</loc></url>
-<url><loc>http://aapnarecipe.in/start-working-out-today</loc></url>
-<url><loc>http://aapnarecipe.in/benifits-of-eating-carrots</loc></url>
-<url><loc>http://aapnarecipe.in/health-benifits-of-tomatoes</loc></url>
-<url><loc>http://aapnarecipe.in/tea-nutrition</loc></url>
-<url><loc>http://aapnarecipe.in/water-is-another-name-of-life</loc></url>
-<url><loc>http://aapnarecipe.in/benifits-of-eating-banana-everyday</loc></url>
-<url><loc>http://aapnarecipe.in/every-day-is-a-good-day-to-workout</loc></url>
-<url><loc>http://aapnarecipe.in/recipe/chilli-cauliflower</loc></url>
-<url><loc>http://aapnarecipe.in/breakfast-is-important-to-us</loc></url>
-<url><loc>http://aapnarecipe.in/aboutus/eating_healthy_food</loc></url>
-<url><loc>http://aapnarecipe.in/recipe/chicken-tikka-butter-masala</loc></url>
-<url><loc>http://aapnarecipe.in/recipe/dahi-methi-chicken</loc></url>
-<url><loc>http://aapnarecipe.in/breakfast/rava-dhosa</loc></url>
-<url><loc>http://aapnarecipe.in/breakfast/rava-idly</loc></url>
-<url><loc>http://aapnarecipe.in/recipe/stuffed-capsicum</loc></url>
-<url><loc>http://aapnarecipe.in/recipe/paneer-do-pyaza</loc></url>
-<url><loc>http://aapnarecipe.in/recipe/kadai-paneer</loc></url>
-<url><loc>http://aapnarecipe.in/recipe/paneer-butter-masala</loc></url>
-<url><loc>http://aapnarecipe.in/recipe/paneer-jalfrezi</loc></url>
-<url><loc>http://aapnarecipe.in/recipe/makhni-paneer</loc></url>
-<url><loc>http://aapnarecipe.in/recipe/matar-paneer</loc></url>
-<url><loc>http://aapnarecipe.in/recipe/palak-paneer</loc></url>
-<url><loc>http://aapnarecipe.in/recipe/paneer-tikka-masala</loc></url>
-<url><loc>http://aapnarecipe.in/recipe/spicy-keralan-chicken-curry</loc></url>
-<url><loc>http://aapnarecipe.in/recipe/dim-posto</loc></url>
-<url><loc>http://aapnarecipe.in/recipe/illish-sarse-jhal</loc></url>
-<url><loc>http://aapnarecipe.in/bengali/</loc></url>
-<url><loc>http://aapnarecipe.in/blogs/details/an-apple-a-%0d%0a%0d%0aday</loc></url>
-<url><loc>http://aapnarecipe.in/blogs/details/benifits-%0d%0a%0d%0aof-eating-carrots</loc></url>
-<url><loc>http://aapnarecipe.in/blogs/details/benifits-of-eating-%0d%0a%0d%0abanana-everyday</loc></url>
-<url><loc>http://aapnarecipe.in/aboutus/breakfast_is_important_to_us</loc></url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://aapnarecipe.in/</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/Breakfasts</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/Recipes</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/bengali</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/bengali/veg</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/bengali/nonveg</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/italian</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/Blogs</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/Desserts</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/AboutUs</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/ContactUs</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/eating-healthy-food</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/breakfast/chirer-poha</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/breakfast/egg-cheese-sandwich</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/breakfast/rava-idly</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/breakfast/rava-upma</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/breakfast/rava-utthapam</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/breakfast/aloo-paratha</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/breakfast/bread-upma</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/breakfast/instant-dhokla</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/breakfast/chicken-momos</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/breakfast/soft-pancakes</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/recipe/carbonara-recipe</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/recipe/spicy-keralan-chicken-curry</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/recipe/chicken-chaap</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/Blogs/details/an-apple-a-day</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/Blogs/details/benifits-of-eating-lentils</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/Blogs/details/benifits-of-eating-carrots</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/Blogs/details/benifits-of-eating-banana-everyday</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/breakfast/french-toast</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/breakfast/rava-dhosa</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/recipe/illish-sarse-jhal</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/recipe/dim-posto</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/recipe/dahi-methi-chicken</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/recipe/chicken-tikka-butter-masala</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/recipe/paneer-tikka-masala</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/recipe/palak-paneer</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/recipe/matar-paneer</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/recipe/makhni-paneer</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/recipe/paneer-jalfrezi</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/recipe/paneer-butter-masala</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/recipe/kadai-paneer</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/recipe/paneer-do-pyaza</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/recipe/tandoori-chicken</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/recipe/stuffed-capsicum</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/recipe/stuffed-baingan-curry</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/recipe/chilli-cauliflower</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/recipe/chicken-parmesan-pasta-skillet</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/recipe/peri-peri-chicken-pizza</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/recipe/bruschetta</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/recipe/focaccia-bread</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/bengali/</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/an-apple-a-day</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/benifits-of-eating-lentils</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/benifits-of-eating-carrots</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/benifits-of-eating-banana-everyday</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/best-high-fiber-foods</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/every-day-is-a-good-day-to-workout</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/benifits-of-pudina</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/salt-causes-hypertension</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/start-working-out-today</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/tea-nutrition</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/desert/paneer-malpua</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/desert/gulab-jamun</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/desert/pumkin-chesecake</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/desert/kesar-pista-firni</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/desert/orrange-cake</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/desert/chocolate-brownie</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/desert/chanar-payesh</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/desert/mango-flavoured-rosgulla</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/desert/gajar-ka-halwa</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/desert/pineapple-upma</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/desert/badam-rosmalai</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/desert/peanut-butter-fudge</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/AboutUs/eating_healthy_food</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/breakfast-is-important-to-us</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/water-is-another-name-of-life</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/health-benifits-of-tomatoes</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/making-pizza-dough</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://aapnarecipe.in/AboutUs/breakfast_is_important_to_us</loc>
+  <lastmod>2018-03-25T04:13:48+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
 </urlset>

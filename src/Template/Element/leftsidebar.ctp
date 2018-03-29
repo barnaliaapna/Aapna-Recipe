@@ -33,18 +33,19 @@
 			<a href="<?php echo $this->Url->build('/');?>Blogs" class="button">See More</a>
 		</footer>
 	</section>
-
-	<section>
-		<!-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
+	<?php if($_SERVER['HTTP_HOST'] != 'localhost'):?>
+	<section style="margin-top: 20px">
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		<!-- Details page 1 -->
 		<ins class="adsbygoogle"
-		     style="display:block"
-		     data-ad-client="ca-pub-4709770716548116"
-		     data-ad-slot="4462345960"
-		     data-ad-format="auto"></ins>
+		 style="display:block"
+		 data-ad-client="ca-pub-4709770716548116"
+		 data-ad-slot="4462345960"
+		 data-ad-format="auto"></ins>
 		<script>
 		(adsbygoogle = window.adsbygoogle || []).push({});
 		</script>
 	</section>
+	<?php endif;?>
 	
 </div>

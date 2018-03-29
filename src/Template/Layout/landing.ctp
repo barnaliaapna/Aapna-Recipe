@@ -13,6 +13,7 @@
 		<meta name="Keywords" content="Food, Recipe, Desserts, Breakfasts, Blogs">
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<script src="<?php echo $this->Url->build('/');?>assets/js/jquery.min.js"></script>
+		<?php if($_SERVER['HTTP_HOST'] != 'localhost'):?>
 		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		<script>
 		  (adsbygoogle = window.adsbygoogle || []).push({
@@ -21,7 +22,7 @@
 		  });
 		</script>
 		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115413434-1"></script>
+		<script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-115413434-1"></script>
 		<script>
 		  window.dataLayer = window.dataLayer || [];
 		  function gtag(){dataLayer.push(arguments);}
@@ -29,6 +30,8 @@
 
 		  gtag('config', 'UA-115413434-1');
 		</script>
+		<?php endif;?>
+		
 
 		<script type="text/javascript"></script>
 		<!-- <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a99640d6a7bfcf1"></script> -->
@@ -61,9 +64,9 @@
 					<header>
 						<h2>Hi. You're looking at <strong>Aapna Recipe</strong>.</h2>
 						<p>
-							A healthy <a href="<?php echo $this->Url->build('/');?>Breakfasts">breakfast</a> is an important part of a balanced diet, and provides some of the vitamins and minerals we need for <a href="<?php echo $this->Url->build('/');?>eating-healthy-food">good health</a>.
+							A healthy <a href="<?php echo $this->Url->build('/');?>Breakfasts">breakfast</a> is an important part of a balanced diet, and provides some of the vitamins and minerals we need for <a href="<?php echo $this->Url->build('/');?>eating-healthy-food">good health</a>. Welcome to Aapna Recipe, your number one source for all foods recipe. We're dedicated to giving you the very best of recipe, with a focus on healthy and tasty.
 						</p>
-					</header>
+					</header>					
 				</section>
 
 			<!-- Carousel -->
@@ -91,6 +94,17 @@
 								These easy Chinese stir-fried noodles will make you forget takeout forever
 							</p>
 						</header>
+						<?php if($_SERVER['HTTP_HOST'] != 'localhost'):?>
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<ins class="adsbygoogle"
+						     style="display:block"
+						     data-ad-client="ca-pub-4709770716548116"
+						     data-ad-slot="7494178302"
+						     data-ad-format="link"></ins>
+						<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+						<?php endif;?>
 						<p>
 							Eating healthy food doesn’t mean giving up your favourite foods. Your favourite recipes can be adapted easily to provide a healthier alternative. For example, non-stick cookware can be used to reduce the need for cooking oil. Vegetables can also be microwaved or steamed instead of boiling to keep valuable nutrition.
 
@@ -112,16 +126,30 @@
 							<p>Take a look at our most popular recipes and check out the latest dishes we’ve added to the site.</p>
 						</header>
 						<div class="row">
-							<?php foreach($handsoff_recipe as $handsoff):?>
+							<?php foreach($handsoff_recipe as $key=>$handsoff):?>
 							<article class="4u 12u(mobile) special">
-								<a href="<?php echo $this->Url->build('/');?>recipe/<?php echo $handsoff['metaname'];?>" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $handsoff['image'];?>" width="400px" height="300px" alt="<?php echo $handsoff['image'];?>" /></a>
+								<a style="min-height: 300px" href="<?php echo $this->Url->build('/');?>recipe/<?php echo $handsoff['metaname'];?>" class="image featured"><img src="<?php echo $this->Url->build('/');?>images/<?php echo $handsoff['image'];?>" alt="<?php echo $handsoff['image'];?>" /></a>
 								<header>
 									<h3><a href="<?php echo $this->Url->build('/');?>recipe/<?php echo $handsoff['metaname'];?>"><?php echo $handsoff['name'];?></a></h3>
 								</header>
-								<p>
+								<p class="truncate">
 									<?php echo $handsoff['about_us'];?>
 								</p>
 							</article>
+							<?php if($key == 0):?>
+							
+								<!-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+									<ins class="adsbygoogle"
+									     style="display:block"
+									     data-ad-format="fluid"
+									     data-ad-layout-key="-4e+c5-48-h7+1gm"
+									     data-ad-client="ca-pub-4709770716548116"
+									     data-ad-slot="4044041976"></ins>
+									<script>
+									     (adsbygoogle = window.adsbygoogle || []).push({});
+									</script> -->
+							
+							<?php endif;?>
 							<?php endforeach;?>
 						</div>
 					</section>

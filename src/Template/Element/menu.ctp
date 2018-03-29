@@ -5,14 +5,24 @@
 		<li>
 			<a href="<?php echo $this->Url->build('/');?>Recipes">Recipes</a>
 			<ul>
-				<li><a href="<?php echo $this->Url->build('/');?>bengali">Bengali Recipes</a>
+				<li><a href="<?php echo $this->Url->build('/');?>indian">Indian Recipes</a>
 					<ul>
-						<li><a href="<?php echo $this->Url->build('/');?>bengali/veg">Vegetarian</a></li>
-						<li><a href="<?php echo $this->Url->build('/');?>bengali/nonveg">Non Vegetarian</a></li>
+						<li><a href="<?php echo $this->Url->build('/');?>bengali">Bengali Recipes</a>
+							<ul>
+								<li><a href="<?php echo $this->Url->build('/');?>bengali/veg">Vegetarian</a></li>
+								<li><a href="<?php echo $this->Url->build('/');?>bengali/nonveg">Non Vegetarian</a></li>
+							</ul>
+						</li>
+						<li><a href="<?php echo $this->Url->build('/');?>rajasthani">Rajasthani Recipes</a></li>
+						<li><a href="<?php echo $this->Url->build('/');?>gujrathi">Gujrathi Recipes</a></li>
+						<li><a href="<?php echo $this->Url->build('/');?>punjabi">Punjabi Recipes</a></li>
+						<li><a href="<?php echo $this->Url->build('/');?>keralian">Keralian Recipes</a></li>
+						<li><a href="<?php echo $this->Url->build('/');?>tamilian">Tamilian Recipes</a></li>
 					</ul>
 				</li>
-				<!-- <li><a href="<?php echo $this->Url->build('/');?>Recipes">Chinese Recipes</a></li>
-				<li><a href="<?php echo $this->Url->build('/');?>Recipes">Italian Recipes</a></li> -->				
+				<li><a href="<?php echo $this->Url->build('/');?>chinese">Chinese Recipes</a></li>
+				<li><a href="<?php echo $this->Url->build('/');?>italian">Italian Recipes</a></li>			
+				<li><a href="<?php echo $this->Url->build('/');?>american">American Recipes</a></li>				
 			</ul>
 		</li>
 		<li><a href="<?php echo $this->Url->build('/');?>Blogs">Food Blogs</a></li>

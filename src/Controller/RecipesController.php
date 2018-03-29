@@ -50,7 +50,7 @@ class RecipesController extends AppController
 		$recipesTable=TableRegistry::get('recipes');
         $recipe_details=$recipesTable->find('all',['contain'=>['Ingredients','Users']])->where(['recipes.metaname'=>$meta_name])->first();
 
-        $similiar_recipe=$recipesTable->find('all')->where(['main_ingredient'=>$recipe_details->main_ingredient,'id !='=>$recipe_details->id])->order('rand()')->limit(3)->toArray();
+        $similiar_recipe=$recipesTable->find('all')->where(['main_ingredient'=>$recipe_details->main_ingredient,'sub_category'=>$recipe_details->sub_category,'id !='=>$recipe_details->id])->order('rand()')->limit(3)->toArray();
 
         $blogsTable=TableRegistry::get('blogs');
         $food_blogs=$blogsTable->find('all')->order('rand()')->limit(5)->toArray();
@@ -58,20 +58,167 @@ class RecipesController extends AppController
         $this->set(compact('recipe_details','meta_name','similiar_recipe','food_blogs'));
 	}
 
+	public function indian()
+	{
+		$this->viewBuilder()->setLayout('listing');
+		$recipesTable=TableRegistry::get('recipes');
+        $recipe_details=$recipesTable->find('all');
+        $condition=array();
+        $condition['category']='Indian';
+
+        $recipe_details=$recipe_details->where($condition)->toArray();
+
+        $this->set(compact('recipe_details'));
+	}
+
 	public function bengali($type='')
 	{
 		$this->viewBuilder()->setLayout('listing');
 		$recipesTable=TableRegistry::get('recipes');
         $recipe_details=$recipesTable->find('all');
+        $condition=array();
+        $condition['sub_category']='bengali';
 
         if($type)
         {
-        	$recipe_details=$recipe_details->where(['recipe_type'=>$type]);
+        	$condition['recipe_type']=$type;
         }
 
-        $recipe_details=$recipe_details->toArray();
+        $recipe_details=$recipe_details->where($condition)->toArray();
 
         $this->set(compact('recipe_details','type'));
+	}
+
+
+	public function rajasthani($type='')
+	{
+		$this->viewBuilder()->setLayout('listing');
+		$recipesTable=TableRegistry::get('recipes');
+        $recipe_details=$recipesTable->find('all');
+        $condition=array();
+        $condition['sub_category']='rajasthani';
+
+        if($type)
+        {
+        	$condition['recipe_type']=$type;
+        }
+
+        $recipe_details=$recipe_details->where($condition)->toArray();
+
+        $this->set(compact('recipe_details','type'));
+	}
+
+
+	public function gujrathi($type='')
+	{
+		$this->viewBuilder()->setLayout('listing');
+		$recipesTable=TableRegistry::get('recipes');
+        $recipe_details=$recipesTable->find('all');
+        $condition=array();
+        $condition['sub_category']='gujrathi';
+
+        if($type)
+        {
+        	$condition['recipe_type']=$type;
+        }
+
+        $recipe_details=$recipe_details->where($condition)->toArray();
+
+        $this->set(compact('recipe_details','type'));
+	}
+
+
+	public function punjabi($type='')
+	{
+		$this->viewBuilder()->setLayout('listing');
+		$recipesTable=TableRegistry::get('recipes');
+        $recipe_details=$recipesTable->find('all');
+        $condition=array();
+        $condition['sub_category']='punjabi';
+
+        if($type)
+        {
+        	$condition['recipe_type']=$type;
+        }
+
+        $recipe_details=$recipe_details->where($condition)->toArray();
+
+        $this->set(compact('recipe_details','type'));
+	}
+
+
+	public function keralian($type='')
+	{
+		$this->viewBuilder()->setLayout('listing');
+		$recipesTable=TableRegistry::get('recipes');
+        $recipe_details=$recipesTable->find('all');
+        $condition=array();
+        $condition['sub_category']='keralian';
+
+        if($type)
+        {
+        	$condition['recipe_type']=$type;
+        }
+
+        $recipe_details=$recipe_details->where($condition)->toArray();
+
+        $this->set(compact('recipe_details','type'));
+	}
+
+
+	public function tamilian($type='')
+	{
+		$this->viewBuilder()->setLayout('listing');
+		$recipesTable=TableRegistry::get('recipes');
+        $recipe_details=$recipesTable->find('all');
+        $condition=array();
+        $condition['sub_category']='tamilian';
+
+        if($type)
+        {
+        	$condition['recipe_type']=$type;
+        }
+
+        $recipe_details=$recipe_details->where($condition)->toArray();
+
+        $this->set(compact('recipe_details','type'));
+	}
+
+
+	public function italian()
+	{
+		$this->viewBuilder()->setLayout('listing');
+		$recipesTable=TableRegistry::get('recipes');
+        $recipe_details=$recipesTable->find('all');
+        $condition=array();
+        $condition['category']='Italian';
+        $recipe_details=$recipe_details->where($condition)->toArray();
+
+        $this->set(compact('recipe_details'));
+	}
+
+	public function chinese()
+	{
+		$this->viewBuilder()->setLayout('listing');
+		$recipesTable=TableRegistry::get('recipes');
+        $recipe_details=$recipesTable->find('all');
+        $condition=array();
+        $condition['category']='Chinese';
+        $recipe_details=$recipe_details->where($condition)->toArray();
+
+        $this->set(compact('recipe_details'));
+	}
+
+	public function american()
+	{
+		$this->viewBuilder()->setLayout('listing');
+		$recipesTable=TableRegistry::get('recipes');
+        $recipe_details=$recipesTable->find('all');
+        $condition=array();
+        $condition['category']='American';
+        $recipe_details=$recipe_details->where($condition)->toArray();
+
+        $this->set(compact('recipe_details'));
 	}
 
 }

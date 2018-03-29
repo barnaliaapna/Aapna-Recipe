@@ -56,6 +56,7 @@ Router::scope('/', function (RouteBuilder $routes) {
     $routes->connect('/desert/:slug', ['controller' => 'Desserts', 'action' => 'details'], ['pass' => ['slug']]);
     $routes->connect('/recipe/:slug', ['controller' => 'Recipes', 'action' => 'details'], ['pass' => ['slug']]);
     $routes->connect('/bengali/:slug', ['controller' => 'Recipes', 'action' => 'bengali'], ['pass' => ['slug']]);
+    //$routes->connect('/bengali', ['controller' => 'Recipes', 'action' => 'bengali'], ['pass' => ['slug']]);
     $routes->connect('/breakfast/:slug', ['controller' => 'Breakfasts', 'action' => 'details'], ['pass' => ['slug']]);
 
     $routes->connect('/Breakfasts/', ['controller' => 'Breakfasts', 'action' => 'index']);
@@ -63,10 +64,26 @@ Router::scope('/', function (RouteBuilder $routes) {
     $routes->connect('/Recipes/', ['controller' => 'Recipes', 'action' => 'index']);
     $routes->connect('/Desserts/', ['controller' => 'Desserts', 'action' => 'index']);
     $routes->connect('/AboutUs/', ['controller' => 'AboutUs', 'action' => 'index']);
+
+
     $routes->connect('/breakfast-is-important-to-us/', ['controller' => 'AboutUs', 'action' => 'breakfast_is_important_to_us']);
     $routes->connect('/eating-healthy-food/', ['controller' => 'AboutUs', 'action' => 'eating_healthy_food']);
+    $routes->connect('/making-pizza-dough/', ['controller' => 'AboutUs', 'action' => 'making_pizza_dough']);
+
+
+
     $routes->connect('/ContactUs/', ['controller' => 'ContactUs', 'action' => 'index']);
+    
     $routes->connect('/bengali/', ['controller' => 'Recipes', 'action' => 'bengali']);
+    $routes->connect('/rajasthani/', ['controller' => 'Recipes', 'action' => 'rajasthani']);
+    $routes->connect('/gujrathi/', ['controller' => 'Recipes', 'action' => 'gujrathi']);
+    $routes->connect('/punjabi/', ['controller' => 'Recipes', 'action' => 'punjabi']);
+    $routes->connect('/keralian/', ['controller' => 'Recipes', 'action' => 'keralian']);
+    $routes->connect('/tamilian/', ['controller' => 'Recipes', 'action' => 'tamilian']);
+    $routes->connect('/italian/', ['controller' => 'Recipes', 'action' => 'italian']);
+    $routes->connect('/chinese/', ['controller' => 'Recipes', 'action' => 'chinese']);
+    $routes->connect('/american/', ['controller' => 'Recipes', 'action' => 'american']);
+    $routes->connect('/indian/', ['controller' => 'Recipes', 'action' => 'indian']);
 
 
     /**
