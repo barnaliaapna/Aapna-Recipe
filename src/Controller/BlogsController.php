@@ -31,12 +31,12 @@ class BlogsController extends AppController
 {
 	public function initialize()
 	{
-		$this->viewBuilder()->setLayout('leftsidebar');
+		$this->viewBuilder()->setLayout('landing');
 	}
 
 	public function index()
 	{
-		$this->viewBuilder()->setLayout('blogs');
+		//$this->viewBuilder()->setLayout('blogs');
 		$blogsTable=TableRegistry::get('blogs');
         $blog_details=$blogsTable->find('all')->order(['id'=>'DESC'])->limit(10)->toArray();
         $this->set(compact('blog_details'));
@@ -47,8 +47,13 @@ class BlogsController extends AppController
 	{
 		$blogsTable=TableRegistry::get('blogs');
         $blog_details=$blogsTable->find('all')->where(['blogs.short_content'=>$short_content])->first();
+
+        if(isset($blog_details->id))
+        {
+        	$food_blogs=$blogsTable->find('all')->where(['id !='=>$blog_details->id])->order('rand()')->limit(4)->toArray();
+        }
         
-        $food_blogs=$blogsTable->find('all')->where(['id !='=>$blog_details->id])->order('rand()')->limit(8)->toArray();
+        
 
         $this->set(compact('blog_details','short_content','food_blogs'));
 	}

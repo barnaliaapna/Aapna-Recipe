@@ -74,12 +74,12 @@ Router::scope('/', function (RouteBuilder $routes) {
 
     $routes->connect('/ContactUs/', ['controller' => 'ContactUs', 'action' => 'index']);
     
-    $routes->connect('/bengali/', ['controller' => 'Recipes', 'action' => 'bengali']);
-    $routes->connect('/rajasthani/', ['controller' => 'Recipes', 'action' => 'rajasthani']);
-    $routes->connect('/gujrathi/', ['controller' => 'Recipes', 'action' => 'gujrathi']);
-    $routes->connect('/punjabi/', ['controller' => 'Recipes', 'action' => 'punjabi']);
-    $routes->connect('/keralian/', ['controller' => 'Recipes', 'action' => 'keralian']);
-    $routes->connect('/tamilian/', ['controller' => 'Recipes', 'action' => 'tamilian']);
+    $routes->connect('/bengali/', ['controller' => 'Recipes', 'action' => 'index','bengali']);
+    $routes->connect('/rajasthani/', ['controller' => 'Recipes', 'action' => 'index','rajasthani']);
+    $routes->connect('/gujrathi/', ['controller' => 'Recipes', 'action' => 'index','gujrathi']);
+    $routes->connect('/punjabi/', ['controller' => 'Recipes', 'action' => 'index','punjabi']);
+    $routes->connect('/keralian/', ['controller' => 'Recipes', 'action' => 'index','keralian']);
+    $routes->connect('/tamilian/', ['controller' => 'Recipes', 'action' => 'index','tamilian']);
     $routes->connect('/italian/', ['controller' => 'Recipes', 'action' => 'italian']);
     $routes->connect('/chinese/', ['controller' => 'Recipes', 'action' => 'chinese']);
     $routes->connect('/american/', ['controller' => 'Recipes', 'action' => 'american']);
@@ -117,6 +117,7 @@ Router::prefix('backend', function ($routes) {
     $routes->connect('/:controller/:action/*');
     $routes->fallbacks('InflectedRoute');
 });
+
 
 /**
  * Load all plugin routes. See the Plugin documentation on

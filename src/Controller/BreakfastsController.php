@@ -32,16 +32,30 @@ class BreakfastsController extends AppController
 {
 	public function initialize()
 	{
-		$this->viewBuilder()->setLayout('leftsidebar');
+		$this->viewBuilder()->setLayout('landing');
 	}
 
-	public function index()
+	public function index($page=1)
 	{
-		$this->viewBuilder()->setLayout('listing');
+		$this->viewBuilder()->setLayout('landing');
 		$breakfastsTable=TableRegistry::get('breakfasts');
-        $recipe_details=$breakfastsTable->find('all')->order('rand()')->limit(12)->toArray();
+        $recipe_details=$breakfastsTable->find('all')->order('rand()')->toArray();
+        //->limit(6)->page($page)
+        $i=0;$recipe_list=array();
+        foreach($recipe_details as $key=>$recipe)
+        {
+            $sp_key=$key;
+            if($sp_key % 3 == 0)
+            {
+                $i++;
+            }
 
-        $this->set(compact('recipe_details'));
+            $recipe_list[$i][]=$recipe;
+        }
+        //echo '<pre>';
+        //print_r($newArray);exit;
+
+        $this->set(compact('recipe_details','recipe_list'));
 	}
 
 
@@ -50,14 +64,17 @@ class BreakfastsController extends AppController
 		$breakfastsTable=TableRegistry::get('breakfasts');
         $recipe_details=$breakfastsTable->find('all',['contain'=>['Ingredients','Users']])->where(['breakfasts.metaname'=>$meta_name])->first();
 
-        $url=Router::url('/',true).'Breakfasts/details/'.$meta_name;
-        $imageurl=Router::url('/',true).'images/'.$recipe_details->image;
+        /*$url=Router::url('/',true).'Breakfasts/details/'.$meta_name;
+        $imageurl=Router::url('/',true).'images/'.$recipe_details->image;*/
 
-        $this->set('url', $url);
+        /*$this->set('url', $url);
         $this->set('description', $recipe_details->about_us);
-        $this->set('image', $imageurl);
+        $this->set('image', $imageurl);*/
 
-        $similiar_recipe=$breakfastsTable->find('all')->where(['id !='=>$recipe_details->id])->order('rand()')->limit(3)->toArray();
+        if(isset($recipe_details->id))
+        {
+        	$similiar_recipe=$breakfastsTable->find('all')->where(['id !='=>$recipe_details->id])->order('rand()')->limit(4)->toArray();
+        }
 
         $blogsTable=TableRegistry::get('blogs');
         $food_blogs=$blogsTable->find('all')->order('rand()')->limit(5)->toArray();

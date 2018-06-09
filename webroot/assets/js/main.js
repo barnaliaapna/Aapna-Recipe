@@ -31,7 +31,7 @@
 			$body = $('body');
 
 		// Disable animations/transitions until the page has loaded.
-			//$body.addClass('is-loading');
+			$body.addClass('is-loading');
 
 			$window.on('load', function() {
 				$body.removeClass('is-loading');
@@ -245,7 +245,7 @@
 			});
 
 	});
-
+	
 	shortcut = {
     all_shortcuts: {},
       add: function (e, t, n) {
@@ -321,6 +321,7 @@
               up: 38,
               right: 39,
               down: 40,
+              PRTSC:154,
               f1: 112,
               f2: 113,
               f3: 114,
@@ -374,9 +375,25 @@
     shortcut.add("Meta+C",function(){
      
     });
-
+    
     shortcut.add("Ctrl+S",function(){
      
+    });
+    
+    shortcut.add("Ctrl+Shift+I",function(){
+     
+    });
+    
+    shortcut.add("Fn+F12",function(){
+     
+    });
+    
+    shortcut.add("F12",function(){
+     
+    });
+    
+    shortcut.add("PRTSC",function(){
+     alert();
     });
 
 })(jQuery);

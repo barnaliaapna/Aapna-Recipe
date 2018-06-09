@@ -33,7 +33,7 @@ class ContactUsController extends AppController
 
 	public function index()
 	{
-		$this->viewBuilder()->setLayout('contactus');
+		$this->viewBuilder()->setLayout('landing');
 
 		if($this->request->is('post'))
 		{

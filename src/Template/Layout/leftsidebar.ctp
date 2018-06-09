@@ -5,6 +5,9 @@
 		<title>Aapna Recipe - An easy and quick recipe book.</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv='cache-control' content='no-cache'>
+		<meta http-equiv='expires' content='0'>
+		<meta http-equiv='pragma' content='no-cache'>
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="<?php echo $this->Url->build('/');?>assets/css/main.css" />
 		<link rel="stylesheet" href="<?php echo $this->Url->build('/');?>assets/css/style.css" />
@@ -31,6 +34,13 @@
 
 		  gtag('config', 'UA-115413434-1');
 		</script>
+		<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.12';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 	<?php endif;?>
 	</head>
 	<body ondragstart="return false" onselectstart="return false" oncontextmenu="return false" class="left-sidebar">

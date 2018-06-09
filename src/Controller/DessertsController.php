@@ -31,16 +31,30 @@ class DessertsController extends AppController
 {
 	public function initialize()
 	{
-		$this->viewBuilder()->setLayout('leftsidebar');
+		$this->viewBuilder()->setLayout('landing');
 	}
 
 	public function index()
 	{
-		$this->viewBuilder()->setLayout('listing');
+		//$this->viewBuilder()->setLayout('listing');
 		$dessertsTable=TableRegistry::get('desserts');
         $recipe_details=$dessertsTable->find('all',['contain'=>['Users']])->order('rand()')->toArray();
 
-        $this->set(compact('recipe_details'));
+        $i=0;$recipe_list=array();
+        foreach($recipe_details as $key=>$recipe)
+        {
+            $sp_key=$key;
+            if($sp_key % 3 == 0)
+            {
+                $i++;
+            }
+
+            $recipe_list[$i][]=$recipe;
+        }
+        //echo '<pre>';
+        //print_r($newArray);exit;
+
+        $this->set(compact('recipe_details','recipe_list'));
 	}
 
 
@@ -49,7 +63,11 @@ class DessertsController extends AppController
 		$dessertsTable=TableRegistry::get('desserts');
         $recipe_details=$dessertsTable->find('all',['contain'=>['Ingredients','Users']])->where(['desserts.metaname'=>$meta_name])->first();
 
-        $similiar_recipe=$dessertsTable->find('all')->where(['id !='=>$recipe_details->id])->order('rand()')->limit(3)->toArray();
+        if(isset($recipe_details->id))
+        {
+
+        	$similiar_recipe=$dessertsTable->find('all')->where(['id !='=>$recipe_details->id])->order('rand()')->limit(4)->toArray();
+        }
 
         $blogsTable=TableRegistry::get('blogs');
         $food_blogs=$blogsTable->find('all')->order('rand()')->limit(5)->toArray();

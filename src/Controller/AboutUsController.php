@@ -31,7 +31,7 @@ class AboutUsController extends AppController
 {
 	public function initialize()
 	{
-		$this->viewBuilder()->setLayout('nosidebar');
+		$this->viewBuilder()->setLayout('landing');
 	}
 
 	public function index()

@@ -34,14 +34,14 @@ class HomeController extends AppController
 	{
 		$this->viewBuilder()->setLayout('landing');
 
-		$galleryTable=TableRegistry::get('galleries');
-        $all_galleries=$galleryTable->find('all')->order('rand()')->limit(6)->toArray();
+		/*$galleryTable=TableRegistry::get('galleries');
+                $all_galleries=$galleryTable->find('all')->order('rand()')->limit(6)->toArray();*/
 
         $recipesTable=TableRegistry::get('recipes');
         $handsoff_recipe=$recipesTable->find('all')->order('rand()')->limit(3)->toArray();
 
-        $blogsTable=TableRegistry::get('blogs');
-        $recent_blogs=$blogsTable->find('all')->order(['id'=>'DESC'])->limit(4)->toArray();
+        /*$blogsTable=TableRegistry::get('blogs');
+        $recent_blogs=$blogsTable->find('all')->order(['id'=>'DESC'])->limit(4)->toArray();*/
 
         $breakfastsTable=TableRegistry::get('breakfasts');
         $top_breakfasts=$breakfastsTable->find('all')->order(['rand()'])->limit(10)->toArray();
